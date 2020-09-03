@@ -17,5 +17,5 @@ Select AzarielClient on Minecraft Launcher.
 <p>
 <img src=https://i.imgur.com/1v0oBNE.png></img>
 <p>
-![Everything Is AWESOME](https://www.youtube.com/watch?v=SdICJDiFz_8)
+![Everything Is AWESOME(https://i.imgur.com/1v0oBNE.png)](https://www.youtube.com/watch?v=SdICJDiFz_8 "AzarielClient")
 
