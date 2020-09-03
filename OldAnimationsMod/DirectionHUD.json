@@ -1,0 +1,8 @@
+{
+  "optionEnable": true,
+  "showWhileChat": true,
+  "optionPositionMode": "TOPCENTER",
+  "optionMarkerColor": "c",
+  "optionCustomX": 1,
+  "optionCustomY": 1
+}

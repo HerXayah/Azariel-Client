@@ -1,0 +1,9 @@
+{
+  "optionToggleSprint": true,
+  "optionToggleSneak": true,
+  "optionShowHUDText": true,
+  "optionPositionMode": "CUSTOM",
+  "optionHUDTextPosX": 1,
+  "optionHUDTextPosY": 1,
+  "optionDoubleTap": false
+}

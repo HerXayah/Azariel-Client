@@ -1,0 +1,8 @@
+#Format = 'Keyname:xOffset:yOffset'
+W:26:2
+S:26:26
+A:2:26
+D:50:26
+SPACE:2:50
+LMB:2:63
+RMB:38:63

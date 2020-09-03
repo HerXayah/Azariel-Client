@@ -1,0 +1,8 @@
+# Keystrokes v3 by Fyu
+# Format: KEY:X-OFFSET:Y-OFFSET - Auf Deusch: TASTE:NACH RECHTS:NACH UNTEN
+W:26:2
+S:26:26
+A:2:26
+D:50:26
+LMB:2:50
+RMB:38:50
