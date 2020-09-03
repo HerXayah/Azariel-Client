@@ -14,5 +14,5 @@ Select AzarielClient on Minecraft Launcher.
 
 # Screenshots/Ingame
 
-!(test)[https://twitter.com/i/status/1301577724952272901]
-!(twt)[https://pbs.twimg.com/media/Eg_M_mzXcAAcn8d?format=jpg&name=large]
+!(test)[https://twitter.com/i/status/1301577724952272901] <b>
+!(twt)[https://i.imgur.com/1v0oBNE.png]
