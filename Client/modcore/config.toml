@@ -1,0 +1,65 @@
+
+[general]
+
+	[general.general]
+		modcore_button_links = true
+
+	[general.online_status]
+		show_tab_online_indicator = true
+
+[keybinds]
+
+	[keybinds.keybinds]
+		"rotate_(toggle)" = false
+		add_friend = false
+		"rotate_(hold)" = false
+		open_friends_gui = true
+		"flip_(hold)" = false
+		"flip_(toggle)" = false
+
+[privacy]
+
+	[privacy.general]
+		send_current_server = true
+
+[notifications]
+
+	[notifications.general]
+		master_notifications_toggle = false
+
+	[notifications.messages]
+		message_received_notifications = true
+		message_group_update = true
+		message_sound = true
+
+	[notifications.updates]
+		mod_update_notification = true
+
+	[notifications.friends]
+		friend_notifications = true
+
+[cosmetics]
+
+	[cosmetics.general]
+		show_cosmetic_preview = true
+		capes_cache_strategy = 0
+
+	[cosmetics.show_cosmetics]
+		top_hat = true
+		colonist_hat = true
+		dragon_head = true
+		general_backpack = true
+		lego_maestro_cape = true
+		fez_hat = true
+		dog_backpack = true
+		elephant_backpack = true
+		tab_dot = true
+		dog_filter = true
+		custom_cape_gif = true
+		jetpack = true
+		custom_cape_image = true
+		airpods = true
+		lego_hat = true
+		nitro_cape = true
+		dragon_wings = true
+
