@@ -1,6 +1,7 @@
 $5$lAzariel Client
-$6Killaura [Intave]
-$bVelocity 88%
-$2Reach [3,60]
-$3AimAssist
-$2Auto W-Tab
+$9$lDer echte Klientus ohne Client
+$6Killaura [Dreamer420 Mode]
+$bVelocity 888.653%
+$2Reach [3,00001]
+$3AimAssist [240FPS]
+$2Auto W-Tab [WTAB noobie]
