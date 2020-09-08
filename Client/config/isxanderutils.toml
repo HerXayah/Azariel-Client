@@ -1,0 +1,52 @@
+
+[mychest]
+
+	[mychest.personalization]
+		color = 2
+
+	[mychest.functionality]
+		mychest = true
+		esp_mode = false
+		clear_on_chest_refill = true
+
+[antisnipe]
+
+	[antisnipe.functionality]
+		antisnipe = false
+		hide_players = false
+		sniper_warning = false
+
+[easyplay]
+
+	[easyplay.language]
+		hide_sending_to_server_messages = true
+		replace_server_errors = true
+
+	[easyplay.functionality]
+		easyplay = false
+		requeue_once_the_game_ends = false
+		requeue_if_an_error_occurs = true
+		requeue_delay = 5
+
+[particle_mod]
+
+	[particle_mod.criticals]
+		critical_multiplier = 40
+
+	[particle_mod.sharpness]
+		always_sharp = true
+		sharp_multiplier = 40
+
+[cleanchat]
+
+	[cleanchat.functionality]
+		hide_leave_messages = true
+		hide_join_messages = true
+		hide_game_tag = true
+		notip = true
+		hide_game_countdown = true
+		nok = true
+		cleanchat = false
+		hide_spectator_tag = true
+		replace_dividers = true
+
