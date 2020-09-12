@@ -2,6 +2,8 @@
 
 Disclaimer: Im not affiliated with Mojang or any of these Mods. I didnt make them (yet) and thus they belong to the rightful maker. Im also not accountable for any Ban or Damage that happens while using this ,,Client,,.
 
+Also this is NOT a Cheat.
+
 # How to install
 
 Make sure you backup your Minecraft
