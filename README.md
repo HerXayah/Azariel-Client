@@ -4,6 +4,10 @@ Disclaimer: Im not affiliated with Mojang or any of these Mods. I didnt make the
 
 Also this is NOT a Cheat.
 
+# Info
+
+For Stuff like Borderless Window or anything else, please take your time and look throught a Mod called Patcher, which you can acess with /patcher ^-^
+
 # How to install
 
 Make sure you backup your Minecraft
