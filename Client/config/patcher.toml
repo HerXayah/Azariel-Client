@@ -1,23 +1,92 @@
 
+[bug_fixes]
+
+	[bug_fixes.general]
+		mouse_bind_fix = true
+		layers_in_tab = true
+		keep_shaders_on_perspective_change = true
+		parallax_fix = true
+		culling_fix = false
+		better_keybind_handling = true
+
+	[bug_fixes.security]
+		resource_exploit_fix = true
+
+	[bug_fixes.world]
+		sky_height = true
+
+	[bug_fixes.entities]
+		arrow_lighting = false
+
+	[bug_fixes.chat]
+		case_insensitive_commands = true
+		command_handling = true
+
+	[bug_fixes.screen]
+		reset_death_timers = true
+
+	[bug_fixes.rendering]
+		player_void_rendering = true
+
+	[bug_fixes.window]
+		fullscreen_fix = true
+
+	[bug_fixes.lighting]
+		chunk_lighting = true
+
+	[bug_fixes.movement]
+		arm_rotation = true
+		head_rotations = true
+		mouse_delay_fix = true
+
 [performance]
 
+	[performance.entity_rendering]
+		disable_nametag_boxes = false
+		disable_attached_arrows = false
+		disable_item_frames = false
+		entity_render_distance = 64
+		disable_grounded_arrows = false
+		entity_render_distance_toggle = false
+		disable_moving_arrows = false
+		disable_semitransparent_players = false
+		disable_skulls = false
+		disable_armorstands = false
+		disable_enchantment_books = false
+
 	[performance.general]
+		disable_enchantment_glint = false
 		disable_gl_error_checking = true
+		disable_end_portals = false
 		async_texture_updating = true
 		startup_optimization = false
 
 	[performance.world]
+		batch_model_rendering = true
 		disable_mob_spawning = true
 		single_model_render_call = true
 		remove_cloud_transparency = true
+		static_fog_color = true
 		low_animation_tick = true
 		optimized_cloud_renderer = true
+		instant_world_swapping = true
 		constant_fog_color_checking = true
 
 	[performance.culling]
 		particle_culling = true
+		entity_culling_interval = 0
+		"don't_cull_armor_stand_nametags" = true
+		blaze_culling = true
+		smart_entity_culling = true
 		entity_culling = false
 		"don't_cull_nametags" = true
+		"don't_cull_player_nametags" = true
+		"don't_cull_entity_nametags" = true
+
+	[performance.text_rendering]
+		disable_shadowed_text = false
+		cache_font_data = true
+		optimized_font_renderer = true
 
 	[performance.resources]
 		cached_resources = true
@@ -52,6 +121,56 @@
 
 	[performance.packs]
 		pack_images = true
+
+[miscellaneous]
+
+	[miscellaneous.general]
+		log_optimizer_amount = 30
+		crosshair_perspective = true
+		log_optimizer = false
+
+	[miscellaneous.tab]
+		number_ping = true
+		toggle_tab = false
+
+	[miscellaneous.blocks]
+		remove_ground_foliage = true
+
+		[miscellaneous.blocks.1]
+			12_farm_selection_boxes = true
+
+	[miscellaneous.optifine]
+		optifine_zoom_adjustment = false
+		optifine_zoom_sensitivity = false
+		simplify_optifine_fps_counter = true
+
+	[miscellaneous.overlays]
+		remove_water_overlay = true
+		disable_achievements = true
+		remove_inverted_colors_from_crosshair = false
+		nausea_effect = true
+		fire_overlay_height = 0
+
+	[miscellaneous.rendering]
+		disable_breaking_particles = true
+		smart_fullbright = true
+		show_own_nametag = false
+		clean_view = true
+		fullbright = true
+		clean_text_shadow = false
+		numerical_enchantments = true
+
+	[miscellaneous.window]
+		"instant_fullscreen_(windows_only)" = true
+		windowed_fullscreen = false
+
+	[miscellaneous.field_of_view]
+		sprinting_fov = 1
+		slowness_fov = 1
+		fov_modifier = false
+		remove_water_fov = true
+		speed_fov = 1
+		bow_fov = 1
 
 [sounds]
 
@@ -319,11 +438,57 @@
 	[sounds.master]
 		gui_button_press = 100
 
+[screens]
+
+	[screens.general]
+		container_backgrounds = false
+		gui_crosshair = false
+		clean_main_menu = true
+		skin_refresher = true
+		startup_notification = true
+		replace_open_to_lan = false
+		replaced_mods_warning = true
+
+	[screens.tab]
+		tab_height = true
+		custom_tab_opacity = false
+		tab_opacity = 100
+		set_tab_height = 10
+
+	[screens.combat_utilities]
+		damage_glance = true
+		item_count_glance = true
+		enchantment_glance = true
+		protection_percentage = true
+		projectile_protection_percentage = true
+
+	[screens.chat]
+		super_compact_chat = 5
+		cross_chat = true
+		anti_clear_chat = true
+		chat_history_length = 100
+		chat_timestamps = false
+		safe_chat_clicks = false
+		transparent_chat = true
+		transparent_chat_input_field = true
+		chat_keeper = true
+		compact_chat = true
+		chat_position = true
+		chat_timestamps_format = 0
+
+	[screens.image_preview]
+		image_preview = true
+		image_preview_width = 50
+
+	[screens.inventory]
+		inventory_position = true
+
 [fixes]
 
 	[fixes.general]
 		mouse_bind_fix = true
 		internal_errors = true
+		layers_in_tab = true
 		scoreboard_patch = true
 		parallax_fix = true
 		culling_fix = false
@@ -342,6 +507,9 @@
 	[fixes.screen]
 		fullscreen_fix = true
 		reset_death_timers = true
+
+	[fixes.lighting]
+		chunk_lighting = true
 
 	[fixes.movement]
 		arm_position = true
@@ -384,6 +552,7 @@
 		tab_height = true
 		show_own_nametag = true
 		disable_achievements = true
+		clean_text_shadow = false
 		fire_height = 0
 		startup_notification = true
 		cleanview = true
@@ -412,11 +581,12 @@
 	[quality_of_life.general]
 		mouse_bind_fix = true
 		fire_height = 0
-		skin_refresher = false
+		skin_refresher = true
 		crosshair_perspective = true
 		sky_height = true
 		nausea_effect = true
 		remove_tall_grass = true
+		replaced_mods_warning = true
 		better_keybind_handling = true
 		fullbright = true
 		disable_achievements = true
@@ -431,6 +601,7 @@
 		toggle_tab = false
 
 	[quality_of_life.world]
+		smart_fullbright = true
 		fullbright = false
 		instant_world_swapping = true
 		sky_height = true
@@ -464,4 +635,14 @@
 		optifine_zoom_adjustment = false
 		optifine_zoom_sensitivity = false
 		simplify_optifine_fps_counter = true
+
+[screenshots]
+
+	[screenshots.feedback]
+		no_feedback = false
+		compact_response = false
+
+	[screenshots.general]
+		screenshot_manager = true
+		screenshot_preview = false
 
