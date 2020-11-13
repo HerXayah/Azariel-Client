@@ -11,13 +11,17 @@ Also Stuff like ToggleSneak etc, are on my Preference so please Set them Up like
 
 # How to install
 
-Make sure you backup your Minecraft
+- Make sure you backup your Minecraft
 
-Download the rar, open it and extract it into Minecraft Folder.
+- Go to ,,Releases,, and select the Latest Version
 
-Override any existing Files.
+- Press on ,,Download Source (Zip)
 
-Select AzarielClient on Minecraft Launcher.
+- Open it and extract it into Minecraft Folder.
+
+- Override any existing Files.
+
+- Select AzarielClient on Minecraft Launcher.
 
 # Screenshots/Ingame
 <p>
