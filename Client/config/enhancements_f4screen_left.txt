@@ -1,0 +1,12 @@
+// Possible keywords:
+//
+// %time%, %player_coordinates%, %block_coordinates%
+// %world_time%, %direction%, %biome%, %shader%
+// %max_rcs%, %current_rcs%, %max_cps%, %current_cps%
+// %lookingatcoords%, %lookingatblocktype%, %memory%
+// %resolution%, %java_version%, %chunk_updates%, %fps%,
+// %horse_speed%, %horse_jump%, %armor_value%
+
+XYZ: %player_coordinates%
+
+%direction%

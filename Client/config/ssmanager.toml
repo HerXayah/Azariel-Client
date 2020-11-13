@@ -1,0 +1,10 @@
+
+[general]
+
+	[general.feedback]
+		no_feedback = false
+		compact_chat = false
+
+	[general.general]
+		screenshot_preview = true
+

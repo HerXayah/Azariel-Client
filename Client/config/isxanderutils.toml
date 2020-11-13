@@ -2,7 +2,7 @@
 [mychest]
 
 	[mychest.personalization]
-		color = 2
+		color = 6
 
 	[mychest.functionality]
 		mychest = true
@@ -31,11 +31,11 @@
 [particle_mod]
 
 	[particle_mod.criticals]
-		critical_multiplier = 40
+		critical_multiplier = 7
 
 	[particle_mod.sharpness]
 		always_sharp = true
-		sharp_multiplier = 40
+		sharp_multiplier = 9
 
 [cleanchat]
 

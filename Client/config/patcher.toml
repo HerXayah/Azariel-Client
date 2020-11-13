@@ -27,6 +27,7 @@
 
 	[bug_fixes.rendering]
 		player_void_rendering = true
+		fluid_stitching = true
 
 	[bug_fixes.window]
 		fullscreen_fix = true
@@ -42,22 +43,22 @@
 [performance]
 
 	[performance.entity_rendering]
-		disable_nametag_boxes = false
-		disable_attached_arrows = false
+		disable_nametag_boxes = true
+		disable_attached_arrows = true
 		disable_item_frames = false
 		entity_render_distance = 64
-		disable_grounded_arrows = false
+		disable_grounded_arrows = true
 		entity_render_distance_toggle = false
 		disable_moving_arrows = false
 		disable_semitransparent_players = false
 		disable_skulls = false
 		disable_armorstands = false
-		disable_enchantment_books = false
+		disable_enchantment_books = true
 
 	[performance.general]
 		disable_enchantment_glint = false
 		disable_gl_error_checking = true
-		disable_end_portals = false
+		disable_end_portals = true
 		async_texture_updating = true
 		startup_optimization = false
 
@@ -82,6 +83,7 @@
 		"don't_cull_nametags" = true
 		"don't_cull_player_nametags" = true
 		"don't_cull_entity_nametags" = true
+		check_armorstand_rules = false
 
 	[performance.text_rendering]
 		disable_shadowed_text = false
@@ -126,7 +128,9 @@
 
 	[miscellaneous.general]
 		log_optimizer_amount = 30
+		better_camera = true
 		crosshair_perspective = true
+		better_f1 = false
 		log_optimizer = false
 
 	[miscellaneous.tab]
@@ -140,9 +144,18 @@
 			12_farm_selection_boxes = true
 
 	[miscellaneous.optifine]
+		smooth_scroll-to-zoom_animation = false
+		smooth_zoom_animation = true
+		toggle_to_zoom = false
 		optifine_zoom_adjustment = false
+		smooth_optifine_zoom_animation = true
+		zoom_smooth_camera = false
+		zoom_sensitivity = 100
+		smooth_zoom_function = 0
+		simplify_fps_counter = true
 		optifine_zoom_sensitivity = false
 		simplify_optifine_fps_counter = true
+		zoom_adjustment = false
 
 	[miscellaneous.overlays]
 		remove_water_overlay = true
@@ -158,7 +171,9 @@
 		clean_view = true
 		fullbright = true
 		clean_text_shadow = false
+		disable_text_shadow = false
 		numerical_enchantments = true
+		add_text_shadow_to_nametags = false
 
 	[miscellaneous.window]
 		"instant_fullscreen_(windows_only)" = true
@@ -448,6 +463,7 @@
 		startup_notification = true
 		replace_open_to_lan = false
 		replaced_mods_warning = true
+		smart_disconnect = false
 
 	[screens.tab]
 		tab_height = true
@@ -465,15 +481,16 @@
 	[screens.chat]
 		super_compact_chat = 5
 		cross_chat = true
+		safe_chat_clicks = false
+		shift_chat = false
+		transparent_chat = true
+		transparent_chat_input_field = true
+		chat_position = true
 		anti_clear_chat = true
 		chat_history_length = 100
 		chat_timestamps = false
-		safe_chat_clicks = false
-		transparent_chat = true
-		transparent_chat_input_field = true
 		chat_keeper = true
 		compact_chat = true
-		chat_position = true
 		chat_timestamps_format = 0
 
 	[screens.image_preview]
@@ -644,5 +661,8 @@
 
 	[screenshots.general]
 		screenshot_manager = true
+		preview_time = 3
+		preview_scale = 3
 		screenshot_preview = false
+		preview_animation = 0
 
