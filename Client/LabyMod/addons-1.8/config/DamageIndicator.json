@@ -1,0 +1,8 @@
+{
+  "config": {
+    "scale": 50,
+    "displayType": "HEARTS",
+    "visible": false,
+    "heartAnimation": false
+  }
+}

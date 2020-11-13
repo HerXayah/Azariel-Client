@@ -1,0 +1,1057 @@
+{
+  "one_seven_visuals": {
+    "one_seven_visuals_enabled_bl": true,
+    "options": {
+      "glint_anim": "1.7",
+      "armor_hit_anim": "1.7",
+      "block_hit_anim": "1.7",
+      "health_anim": "1.7",
+      "sneak_anim": "1.7",
+      "hurt_camera_shake": "1.7",
+      "tp_held_items": "1.7",
+      "fp_carpet": "1.7",
+      "fp_fishing_rod": "1.7",
+      "fp_sword": "1.7",
+      "fp_potion": "1.7",
+      "fp_bow": "1.7",
+      "use_item_while_digging": "1.8",
+      "use_tab": "1.8",
+      "hit_armor_color_clr_nr": {
+        "value": "#66990000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "togglesneak": {
+    "position": "top_left",
+    "x": 0.0,
+    "y": 0.0,
+    "togglesneak_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "toggle_sprint_bl": true,
+      "toggle_sneak_bl": false,
+      "toggle_sneak_container_bl": false,
+      "show_text_bl": true,
+      "text_shadow_bl": true,
+      "double_tap_bl": false,
+      "show_while_typing_bl": true,
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "fly_boost_bl": true,
+      "boost_amnt_nr": "4"
+    }
+  },
+  "potioneffects": {
+    "position": "middle_left",
+    "x": 10.0,
+    "y": 0.0,
+    "potioneffects_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "display_typing_bl": true,
+      "effect_name_bl": true,
+      "text_shadow_bl": true,
+      "blink_bl": true,
+      "blink_duration_nr": "10",
+      "color_name_based_on_effect_bl": false,
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "duration_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "excludePerm_bl": false,
+      "excludeSpeed_bl": false,
+      "excludeSlowness_bl": false,
+      "excludeStrength_bl": false,
+      "excludeJumpBoost_bl": false,
+      "excludeRegen_bl": false,
+      "excludeFireRes_bl": false,
+      "excludeWaterBreathing_bl": false,
+      "excludeNightVision_bl": false,
+      "excludeWeakness_bl": false,
+      "excludePoison_bl": false,
+      "excludeHaste_bl": false,
+      "excludeInvis_bl": false
+    }
+  },
+  "skyblockaddons": {
+    "skyblockaddons.lockedSlots": "",
+    "skyblockaddons.zealot": 0,
+    "position": "top_right",
+    "x": 0.0,
+    "y": 0.0,
+    "skyblockaddons_enabled_bl": false,
+    "options": {
+      "hidePlayersNearNPC_bl": false,
+      "hidePlayersInLobby_bl": false,
+      "dropConfirmation_bl": false,
+      "preventSellingRareItems_bl": false,
+      "ignoreItemFrameClicks_bl": false,
+      "dontOpenProfileWithBow_bl": false,
+      "hideSkeletonHelmetBones_bl": false,
+      "avoidBreakingStems_bl": false,
+      "stopBowChargeFromResetting_bl": false,
+      "disableEmberRodonIsland_bl": false,
+      "grappleCooldownDisplay_bl": false,
+      "hideFoodAndArmorBar_bl": false,
+      "showItemAnvilUses_bl": false,
+      "replaceRomanNumeralsWithNumbers_bl": false,
+      "hideFarEntities_bl": false,
+      "lockItemsInInventory_bl": false,
+      "lockKey_kblc_kblc": 38,
+      "lockKey_kblc_kblc_shift": false,
+      "lockKey_kblc_kblc_control": false,
+      "lockKey_kblc_kblc_alt": false,
+      "darkAuctionTimerColor_clr_nr": {
+        "value": "#ffff3333",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "magmaBossTimerColor_clr_nr": {
+        "value": "#ffff3333",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "scale_nr": "1.0",
+      "darkAuctionTimer": "Never",
+      "magmaBossTimer": "Never",
+      "magmaBossWarning_bl": false,
+      "lowArrowWarning_bl": false,
+      "fullInventoryWarning_bl": false,
+      "summoningEyeAlert_bl": false,
+      "specialZealotAlert_bl": false,
+      "warningColor_clr_nr": {
+        "value": "#ffff3333",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "warningDuration_nr": "4",
+      "backpackColoredInventories_bl": false,
+      "showBackpackPreview": "Show Preview",
+      "minionCannotReach_bl": false,
+      "fullMinionWarning_bl": false,
+      "minionWarningsColor_clr_nr": {
+        "value": "#ffff3333",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "hideHealthBarOption_bl": false,
+      "healthBarTextOption_bl": false,
+      "defenseTextOption_bl": false,
+      "defensePercentageOption_bl": false,
+      "manaTextOption_bl": false,
+      "speedPercentageOption_bl": false,
+      "zealotCounter_bl": false,
+      "zealotKilColor_clr_nr": {
+        "value": "#ff33ff33",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "textShadowOption_bl": false,
+      "enderChestChangeColor_bl": false,
+      "enderChestColor_clr_nr": {
+        "value": "#ff33ff33",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "healthBarOption_bl": false,
+      "healthBarScale_nr": "1.0",
+      "manaBarOption_bl": false,
+      "manaBarOptionScale_nr": "1.0"
+    }
+  },
+  "healthChild": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "healthChild_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0"
+    }
+  },
+  "healthTextChild": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "healthTextChild_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0"
+    }
+  },
+  "defenseTextChild": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "defenseTextChild_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0"
+    }
+  },
+  "manaBarChild": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "manaBarChild_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0"
+    }
+  },
+  "manaTextChild": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "manaTextChild_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0"
+    }
+  },
+  "speedTextChild": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "speedTextChild_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0"
+    }
+  },
+  "zealotCounterChild": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "zealotCounterChild_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0"
+    }
+  },
+  "hypixel_mod": {
+    "hypixel_mod_enabled_bl": true,
+    "options": {
+      "auto_friend_bl": false,
+      "auto_tip_bl": false,
+      "auto_gg_bl": false,
+      "anti_gg_bl": false,
+      "auto_who_bl": false,
+      "level_head_bl": false
+    }
+  },
+  "itemTrackerChild": {
+    "position": "middle_left",
+    "x": 10.0,
+    "y": 8.0,
+    "itemTrackerChild_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "shadow_bl": false,
+      "skyblockOnly_bl": false
+    }
+  },
+  "itemPhysic": {
+    "itemPhysic_enabled_bl": false,
+    "options": {
+      "rotationSpeed_nr": "0.5"
+    }
+  },
+  "uhc_overlay": {
+    "uhc_overlay_enabled_bl": false,
+    "options": {
+      "gold_ingot_scale_nr": "2.0",
+      "gold_nugget_scale_nr": "2.0",
+      "gold_ore_scale_nr": "2.0",
+      "gold_apple_scale_nr": "2.0",
+      "skull_scale_nr": "2.0"
+    }
+  },
+  "armorstatus": {
+    "position": "bottom_right",
+    "x": 0.0,
+    "y": 0.0,
+    "armorstatus_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "list_mode": "vertical",
+      "item_name_bl": false,
+      "item_count_bl": true,
+      "equipped_item_bl": true,
+      "show_while_typing_bl": false,
+      "text_shadow_bl": true,
+      "damage_overlay_bl": true,
+      "item_dmg_bl": true,
+      "armor_dmg_bl": true,
+      "max_dmg_bl": false,
+      "dmg_display": "value",
+      "dmg_threshold": "percent",
+      "static_colors_bl": false,
+      "name_text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "highest_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "high_clr_nr": {
+        "value": "#ff55ff55",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "medium_clr_nr": {
+        "value": "#ffffff55",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "medium_low_clr_nr": {
+        "value": "#ffffaa00",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "low_clr_nr": {
+        "value": "#ffaa0000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "lowest_clr_nr": {
+        "value": "#ffff5555",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "keystrokes": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 28.0,
+    "keystrokes_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "clicks_bl": true,
+      "movement_bl": true,
+      "spacebar_bl": false,
+      "arrows_bl": false,
+      "textShadow_bl": false,
+      "box_size_nr": "18.0",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "text_pressed_clr_nr": {
+        "value": "#ff000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_pressed_clr_nr": {
+        "value": "#6fffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "directionhud": {
+    "position": "top_center",
+    "x": 0.0,
+    "y": 16.0,
+    "directionhud_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "width_nr": "300.0"
+    }
+  },
+  "coords": {
+    "position": "top_left",
+    "x": 70.0,
+    "y": 10.0,
+    "coords_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "mode": "horizontal",
+      "border_thickness_nr": "0.5",
+      "show_while_typing_bl": true,
+      "text_shadow_bl": true,
+      "background_bl": true,
+      "border_bl": false,
+      "direction_bl": false,
+      "show_x_bl": true,
+      "show_y_bl": true,
+      "show_z_bl": true,
+      "show_c_bl": false,
+      "show_labels_bl": false,
+      "text_coordinates_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "x_label_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "x_axis_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "y_label_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "y_axis_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "z_label_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "z_axis_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "c_label_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "c_axis_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "direction_color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "fps": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 8.0,
+    "fps_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "cps": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 24.0,
+    "cps_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "combo": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 24.0,
+    "combo_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "clock": {
+    "position": "top_right",
+    "x": 10.0,
+    "y": 24.0,
+    "clock_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "militaryTime_bl": false,
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "stopwatch": {
+    "position": "top_right",
+    "x": 10.0,
+    "y": 24.0,
+    "stopwatch_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "stopwatch_kb_nr": 22,
+      "resetEveryStart_bl": true,
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "memory": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 24.0,
+    "memory_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "waypoints": {
+    "waypoints_enabled_bl": true,
+    "options": {
+      "beams_bl": true,
+      "box_border_bl": true,
+      "text_shadow_bl": false,
+      "box_padding_nr": "4.0",
+      "add_waypoint_kb_nr": 49
+    }
+  },
+  "crosshair": {
+    "crosshair_enabled_bl": false,
+    "options": {
+      "dot_bl": false,
+      "outline_bl": false,
+      "styleOption": "Cross",
+      "thickness_nr": "1.0",
+      "size_nr": "4.0",
+      "gap_nr": "1.75",
+      "dotSize_nr": "1.0",
+      "dynamic_colors_bl": true,
+      "color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "dotColor_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "friendly_clr_nr": {
+        "value": "#ff33ff33",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "enemy_clr_nr": {
+        "value": "#ffff3333",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "block_outline": {
+    "block_outline_enabled_bl": false,
+    "options": {
+      "block_outline_color_clr_nr": {
+        "value": "#66000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "block_outline_width_nr": "2.0",
+      "block_overlay_bl": false
+    }
+  },
+  "ping": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 8.0,
+    "ping_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "range": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 24.0,
+    "range_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "schematica": {
+    "schematica_enabled_bl": false,
+    "options": {
+      "redColorOption_clr_nr": {
+        "value": "#ff0000ff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "blueColorOption_clr_nr": {
+        "value": "#ffff0000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "showGuideLines_bl": false,
+      "arrowKeyMove_bl": false,
+      "schematicaMenuButton_kblc_kblc": 36,
+      "schematicaMenuButton_kblc_kblc_shift": false,
+      "schematicaMenuButton_kblc_kblc_control": false,
+      "schematicaMenuButton_kblc_kblc_alt": false
+    }
+  },
+  "potion_counter": {
+    "position": "top_center",
+    "x": 10.0,
+    "y": 8.0,
+    "potion_counter_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "showBackground_bl": true,
+      "border_bl": false,
+      "border_thickness_nr": "0.5",
+      "shadow_bl": true,
+      "potionCounter": "Potion",
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "text_clr_nr": {
+        "value": "#ffff0000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "serverAddressMod": {
+    "position": "top_left",
+    "x": 10.0,
+    "y": 24.0,
+    "serverAddressMod_enabled_bl": false,
+    "options": {
+      "scale_nr": "1.0",
+      "background_bl": true,
+      "border_bl": false,
+      "shadow_bl": true,
+      "border_thickness_nr": "0.5",
+      "text_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "background_clr_nr": {
+        "value": "#6f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "particleMultiplierMod": {
+    "particleMultiplierMod_enabled_bl": false,
+    "options": {
+      "particleMultiplier_nr": "2",
+      "showCriticals_bl": true,
+      "affectCriticals_bl": true,
+      "affectEnchantedCrits_bl": true,
+      "alwaysShowEnchantedCrits_bl": false
+    }
+  },
+  "motionBlur": {
+    "motionBlur_enabled_bl": false,
+    "options": {
+      "value_nr": "1",
+      "color_clr_nr": {
+        "value": "#ffffffff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "fov_mod": {
+    "fov_mod_enabled_bl": false,
+    "options": {
+      "default_fov_nr": "70",
+      "slowness_fov_nr": "70",
+      "sprinting_fov_nr": "70",
+      "flying_fov_nr": "70",
+      "speed_fov_nr": "70",
+      "static_FOV_bl": false
+    }
+  },
+  "time_changer": {
+    "time_changer_enabled_bl": true,
+    "options": {
+      "time_nr": "-12000",
+      "horizon_y_level_nr": "63"
+    }
+  },
+  "screenshot": {
+    "screenshot_enabled_bl": true,
+    "options": {}
+  },
+  "scoreboard": {
+    "position": "middle_right",
+    "x": 0.0,
+    "y": 0.0,
+    "scoreboard_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "numbers_bl": true,
+      "text_shadow_bl": false,
+      "border_thickness_nr": "0.5",
+      "border_bl": false,
+      "background_color_clr_nr": {
+        "value": "#50000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "border_clr_nr": {
+        "value": "#9f000000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  },
+  "bossbar": {
+    "position": "top_center",
+    "x": 0.0,
+    "y": 0.0,
+    "bossbar_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "render_bar_bl": true
+    }
+  },
+  "freelook": {
+    "freelook_enabled_bl": true,
+    "options": {
+      "mode": "Third",
+      "invertPitch_bl": false,
+      "invertYaw_bl": false,
+      "freelok_kb_nr": 56
+    }
+  },
+  "cooldowns": {
+    "position": "bottom_center_left",
+    "x": 0.0,
+    "y": 0.0,
+    "cooldowns_enabled_bl": true,
+    "options": {
+      "scale_nr": "1.0",
+      "mode": "vertical"
+    }
+  },
+  "textHotKey": {
+    "textHotKey_enabled_bl": false,
+    "options": {
+      "1_hk_hk.text": "/Command",
+      "1_hk_hk.key": 0,
+      "2_hk_hk.text": "/Command",
+      "2_hk_hk.key": 0,
+      "3_hk_hk.text": "/Command",
+      "3_hk_hk.key": 0,
+      "4_hk_hk.text": "/Command",
+      "4_hk_hk.key": 0,
+      "5_hk_hk.text": "/Command",
+      "5_hk_hk.key": 0,
+      "6_hk_hk.text": "/Command",
+      "6_hk_hk.key": 0,
+      "7_hk_hk.text": "/Command",
+      "7_hk_hk.key": 0,
+      "8_hk_hk.text": "/Command",
+      "8_hk_hk.key": 0,
+      "9_hk_hk.text": "/Command",
+      "9_hk_hk.key": 0,
+      "10_hk_hk.text": "/Command",
+      "10_hk_hk.key": 0,
+      "11_hk_hk.text": "/Command",
+      "11_hk_hk.key": 0,
+      "12_hk_hk.text": "/Command",
+      "12_hk_hk.key": 0,
+      "13_hk_hk.text": "/Command",
+      "13_hk_hk.key": 0,
+      "14_hk_hk.text": "/Command",
+      "14_hk_hk.key": 0,
+      "15_hk_hk.text": "/Command",
+      "15_hk_hk.key": 0
+    }
+  },
+  "teamview": {
+    "teamview_enabled_bl": true,
+    "options": {}
+  },
+  "shinyPots": {
+    "shinyPots_enabled_bl": false,
+    "options": {
+      "colored_bl": false
+    }
+  },
+  "netgraph": {
+    "netgraph_enabled_bl": true,
+    "options": {}
+  },
+  "worldedit_cui": {
+    "worldedit_cui_enabled_bl": false,
+    "options": {
+      "point1Color_clr_nr": {
+        "value": "#ff0000ff",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "point2Color_clr_nr": {
+        "value": "#ffff0000",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      },
+      "outlineColor_clr_nr": {
+        "value": "#ff00ff00",
+        "chroma_bl": false,
+        "chroma_speed_nr": "40",
+        "chroma_type": "WAVE"
+      }
+    }
+  }
+}

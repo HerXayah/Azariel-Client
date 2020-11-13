@@ -1,0 +1,36 @@
+{
+  "debug_01_bl": false,
+  "shift_effects_bl": false,
+  "show_hud_in_debug_bl": false,
+  "show_hud_in_shift_tab_bl": false,
+  "friends_menu_disable_bl": false,
+  "use_minecraft_scale_enum": "OFF",
+  "borderless_fullscreen_bl": false,
+  "variable_zoom_bl": false,
+  "show_wings_bl": true,
+  "weather_bl": false,
+  "nametag_bl": false,
+  "achievements_bl": true,
+  "hideBanWave_bl": false,
+  "trans_res_pack_menu_bg_bl": false,
+  "red_string_bl": false,
+  "clear_glass": "OFF",
+  "hudLayoutColor_clr_nr": {
+    "value": "#ffffffff",
+    "chroma_bl": false,
+    "chroma_speed_nr": "40",
+    "chroma_type": "WAVE"
+  },
+  "text_clr_nr": {
+    "value": "#ffffffff",
+    "chroma_bl": false,
+    "chroma_speed_nr": "40",
+    "chroma_type": "WAVE"
+  },
+  "background_clr_nr": {
+    "value": "#6f000000",
+    "chroma_bl": false,
+    "chroma_speed_nr": "40",
+    "chroma_type": "WAVE"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "filters": [
+    {
+      "filterName": "Spast",
+      "wordsContains": [
+        "LunaticSpirit"
+      ],
+      "wordsContainsNot": [],
+      "playSound": false,
+      "soundPath": "note.harp",
+      "highlightMessage": false,
+      "highlightColorR": 200,
+      "highlightColorG": 200,
+      "highlightColorB": 50,
+      "hideMessage": true,
+      "displayInSecondChat": false,
+      "filterTooltips": false,
+      "room": "Global"
+    },
+    {
+      "filterName": "xKakashii",
+      "wordsContains": [
+        "xKakashii"
+      ],
+      "wordsContainsNot": [],
+      "playSound": false,
+      "soundPath": "note.harp",
+      "highlightMessage": false,
+      "highlightColorR": 200,
+      "highlightColorG": 200,
+      "highlightColorB": 50,
+      "hideMessage": false,
+      "displayInSecondChat": false,
+      "filterTooltips": false,
+      "room": "Global"
+    },
+    {
+      "filterName": "test",
+      "wordsContains": [
+        "ÄbsurdTV"
+      ],
+      "wordsContainsNot": [],
+      "playSound": false,
+      "soundPath": "note.harp",
+      "highlightMessage": false,
+      "highlightColorR": 200,
+      "highlightColorG": 200,
+      "highlightColorB": 50,
+      "hideMessage": true,
+      "displayInSecondChat": false,
+      "filterTooltips": false,
+      "room": "Global"
+    },
+    {
+      "filterName": "meleza",
+      "wordsContains": [
+        "Lezaqhito"
+      ],
+      "wordsContainsNot": [],
+      "playSound": false,
+      "soundPath": "note.harp",
+      "highlightMessage": true,
+      "highlightColorR": 252,
+      "highlightColorG": 5,
+      "highlightColorB": 252,
+      "hideMessage": false,
+      "displayInSecondChat": false,
+      "filterTooltips": false,
+      "room": "Global"
+    },
+    {
+      "filterName": "Me",
+      "wordsContains": [
+        "AzarielDev"
+      ],
+      "wordsContainsNot": [],
+      "playSound": false,
+      "soundPath": "note.harp",
+      "highlightMessage": true,
+      "highlightColorR": 252,
+      "highlightColorG": 8,
+      "highlightColorB": 138,
+      "hideMessage": false,
+      "displayInSecondChat": false,
+      "filterTooltips": false,
+      "room": "Global"
+    }
+  ]
+}

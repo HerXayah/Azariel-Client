@@ -180,7 +180,7 @@
         "mojang":
         {
             "text" : "@AzarielDev on Twitter",
-            "posX" : -120,
+            "posX" : -110,
             "posY" : -10,
             "color" : 16711880,
             "alignment" : "bottom_right"
@@ -188,7 +188,7 @@
         
         "":
         {
-            "text" : "Azariel Client 1.0",
+            "text" : "Azariel Client - by Yukii",
             "posX" : 2,
             "posY" : -10,
             "color" : 16711880,
@@ -201,7 +201,7 @@
         "panorama":
         {
             "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
+            "animate" : false,
             "animationSpeed" : 1,
             "blur" : true,
             "gradient" : true

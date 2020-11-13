@@ -1,0 +1,15 @@
+{
+  "mod_menu_kb_nr": 54,
+  "waypoints_kb_nr": 50,
+  "emote_kb_nr": 48,
+  "dropStack_kblc_kblc": 29,
+  "dropStack_kblc_kblc_shift": false,
+  "dropStack_kblc_kblc_control": false,
+  "dropStack_kblc_kblc_alt": false,
+  "friendMenuKey_kblc": 15,
+  "friendMenuKey_kblc_shift": true,
+  "friendMenuKey_kblc_control": false,
+  "friendMenuKey_kblc_alt": false,
+  "freelok_kb_nr": 56,
+  "add_waypoint_kb_nr": 49
+}

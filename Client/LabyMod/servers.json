@@ -1,0 +1,14 @@
+{
+  "serverConfigs": {
+    "NeruxVace.net": {},
+    "BAUSUCHT": {},
+    "gommehd": {
+      "displayPercentage": true,
+      "displayNickname": true,
+      "displayBedwarsTeam": true,
+      "displayElapsedTime": true,
+      "filterPrivateMessages": false
+    },
+    "MineTania.net": {}
+  }
+}

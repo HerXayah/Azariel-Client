@@ -1,0 +1,15 @@
+{
+  "config": {
+    "key_jumping": 0,
+    "analogMovement": true,
+    "selectedControllerName": "Controller (Xbox One For Windows)",
+    "key_sneaking": 5,
+    "key_sprinting": 4,
+    "key_nextItem": 18,
+    "key_previousItem": 16,
+    "key_attack": 20,
+    "key_interact": 22,
+    "key_mouseRightClick": 20,
+    "key_mouseLeftClick": 22
+  }
+}

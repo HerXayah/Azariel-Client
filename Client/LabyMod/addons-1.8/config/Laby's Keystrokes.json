@@ -1,0 +1,137 @@
+{
+  "config": {
+    "keys": [
+      {
+        "key": 17,
+        "mouse": false,
+        "docked": false,
+        "x": 10.368421052631579,
+        "y": 21.666666666666668,
+        "width": 25.0,
+        "height": 25.0,
+        "transparency": 100,
+        "rainbow": false,
+        "cps": false,
+        "outline": false,
+        "backgroundColor": -2147483648,
+        "textColor": -1,
+        "pressedColor": 2147483647,
+        "rgbspeed": 1,
+        "dockedKeys": [
+          {
+            "key": 31,
+            "mouse": false,
+            "docked": true,
+            "x": 0.0,
+            "y": 27.0,
+            "width": 25.0,
+            "height": 25.0,
+            "transparency": 100,
+            "rainbow": false,
+            "cps": false,
+            "outline": false,
+            "backgroundColor": -2147483648,
+            "textColor": -1,
+            "pressedColor": 2147483647,
+            "rgbspeed": 1,
+            "dockedKeys": [
+              {
+                "key": 30,
+                "mouse": false,
+                "docked": true,
+                "x": -27.0,
+                "y": 0.0,
+                "width": 25.0,
+                "height": 25.0,
+                "transparency": 100,
+                "rainbow": false,
+                "cps": false,
+                "outline": false,
+                "backgroundColor": -2147483648,
+                "textColor": -1,
+                "pressedColor": 2147483647,
+                "rgbspeed": 1,
+                "dockedKeys": [
+                  {
+                    "key": 0,
+                    "mouse": true,
+                    "docked": true,
+                    "x": 6.0,
+                    "y": 26.0,
+                    "width": 41.0,
+                    "height": 25.0,
+                    "transparency": 100,
+                    "rainbow": false,
+                    "cps": false,
+                    "outline": false,
+                    "backgroundColor": -2147483648,
+                    "textColor": -1,
+                    "pressedColor": 2147483647,
+                    "rgbspeed": 1,
+                    "dockedKeys": []
+                  }
+                ]
+              },
+              {
+                "key": 32,
+                "mouse": false,
+                "docked": true,
+                "x": 27.0,
+                "y": 0.0,
+                "width": 25.0,
+                "height": 25.0,
+                "transparency": 100,
+                "rainbow": false,
+                "cps": false,
+                "outline": false,
+                "backgroundColor": -2147483648,
+                "textColor": -1,
+                "pressedColor": 2147483647,
+                "rgbspeed": 1,
+                "dockedKeys": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": 1,
+        "mouse": true,
+        "docked": false,
+        "x": 12.736842105263158,
+        "y": 32.50000000000001,
+        "width": 41.0,
+        "height": 25.0,
+        "transparency": 91,
+        "rainbow": false,
+        "cps": false,
+        "outline": false,
+        "backgroundColor": -2147483648,
+        "textColor": -1,
+        "pressedColor": 2147483647,
+        "rgbspeed": 1,
+        "dockedKeys": [
+          {
+            "key": 57,
+            "mouse": false,
+            "docked": true,
+            "x": -21.0,
+            "y": 26.0,
+            "width": 85.0,
+            "height": 25.0,
+            "transparency": 100,
+            "rainbow": false,
+            "cps": false,
+            "outline": false,
+            "backgroundColor": -2147483648,
+            "textColor": -1,
+            "pressedColor": 2147483647,
+            "rgbspeed": 1,
+            "dockedKeys": []
+          }
+        ]
+      }
+    ],
+    "enabled": false
+  }
+}

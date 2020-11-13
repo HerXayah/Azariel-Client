@@ -1,0 +1,9 @@
+{
+  "playerMenuEntries": [
+    {
+      "displayName": "Invite to party",
+      "command": "/party invite {name}",
+      "sendInstantly": true
+    }
+  ]
+}

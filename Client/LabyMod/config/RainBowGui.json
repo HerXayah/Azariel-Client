@@ -1,0 +1,10 @@
+{
+  "config": {
+    "delayPrefix": 30,
+    "delayValues": 30,
+    "enabled": true,
+    "rainbowValues": true,
+    "rainbowPrefix": true,
+    "rainbowBrackets": true
+  }
+}

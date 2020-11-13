@@ -1,0 +1,9 @@
+{
+  "config": {
+    "optionToggleSprint": true,
+    "optionToggleSneak": true,
+    "optionDoubleTap": true,
+    "optionEnableFlyBoost": true,
+    "optionFlyBoostAmount": 10
+  }
+}

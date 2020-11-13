@@ -1,0 +1,14 @@
+{
+  "config": {
+    "theme": "CustomTheme",
+    "backgroundColorTop": -16777216,
+    "backgroundColorBottom": -16777216,
+    "buttonMinecraftStyle": false,
+    "buttonColorOutline": -1,
+    "backgroundPath": "",
+    "enabled": true,
+    "logoPath": "C:\\Users\\Yukii\\AppData\\Roaming\\.minecraft\\LabyMod\\CMM\\t4.png",
+    "buttonColor": -16777216,
+    "buttonColorHover": -16777216
+  }
+}

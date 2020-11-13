@@ -1,0 +1,15 @@
+{
+  "config.framesplus.glerror": true,
+  "config.framesplus.fontrenderer": true,
+  "config.framesplus.itemrenderer": true,
+  "config.framesplus.particlehandler": true,
+  "config.framesplus.particlelighting": true,
+  "config.framesplus.particleculling": true,
+  "config.framesplus.shadowtext": false,
+  "config.framesplus.fogcolor": true,
+  "config.framesplus.animationtick": true,
+  "config.framesplus.asynctexture": true,
+  "config.framesplus.disablelighting": true,
+  "config.framesplus.singlemodel": true,
+  "LICENSE": "cTeVvmNht4918YLS"
+}
