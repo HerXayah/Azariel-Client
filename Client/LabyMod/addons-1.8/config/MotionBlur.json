@@ -1,7 +1,7 @@
 {
   "config": {
-    "multiplier": 26,
-    "additionalPrecision": 23,
+    "multiplier": 28,
+    "additionalPrecision": 28,
     "enabled": true
   }
 }

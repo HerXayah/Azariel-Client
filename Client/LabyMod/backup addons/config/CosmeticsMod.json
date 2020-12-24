@@ -1,0 +1,31 @@
+{
+  "config": {
+    "WINGS": false,
+    "WINGS-D": "-1",
+    "WINGS-R": true,
+    "ANGEL": false,
+    "HALO": true,
+    "HALO-D": "000000",
+    "HALO-R": false,
+    "BANDANA": true,
+    "BANDANA-D": "0,LABYMOD",
+    "savebandana": true,
+    "XMAS": true,
+    "XMAS-D": "1",
+    "NAMETAG": true,
+    "NAMETAG-D": "\u0026rLuna,3",
+    "DOG": false,
+    "DOG-D": "0",
+    "HALLOWEEN": false,
+    "HALLOWEEN-D": "0",
+    "RABBIT": false,
+    "RABBIT-D": "000000",
+    "CAPE": true,
+    "CAPE-D": "LunarStomp",
+    "CRYSTALWINGS": true,
+    "CRYSTALWINGS-D": "ffffff",
+    "GIFCAPE": false,
+    "CRYSTALWINGS-S": 6100,
+    "CRYSTALWINGS-R": false
+  }
+}

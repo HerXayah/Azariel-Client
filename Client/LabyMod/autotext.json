@@ -1,0 +1,56 @@
+{
+  "autoTextKeyBinds": [
+    {
+      "message": "/statsall",
+      "keyShift": false,
+      "keyCtrl": false,
+      "keyAlt": false,
+      "keyCode": 37,
+      "sendNotInstantly": false,
+      "serverBound": false,
+      "available": true
+    },
+    {
+      "message": "/ping",
+      "keyShift": false,
+      "keyCtrl": false,
+      "keyAlt": false,
+      "keyCode": 25,
+      "sendNotInstantly": false,
+      "serverBound": false,
+      "available": true
+    },
+    {
+      "message": "/forcemap Disco",
+      "keyShift": false,
+      "keyCtrl": false,
+      "keyAlt": false,
+      "keyCode": 36,
+      "sendNotInstantly": false,
+      "serverBound": false,
+      "available": true
+    },
+    {
+      "message": "/gamemode 1",
+      "keyShift": false,
+      "keyCtrl": false,
+      "keyAlt": false,
+      "keyCode": 25,
+      "sendNotInstantly": false,
+      "serverBound": false,
+      "serverAddress": "",
+      "available": true
+    },
+    {
+      "message": "/playtime",
+      "keyShift": false,
+      "keyCtrl": false,
+      "keyAlt": false,
+      "keyCode": 49,
+      "sendNotInstantly": false,
+      "serverBound": false,
+      "serverAddress": "",
+      "available": true
+    }
+  ]
+}

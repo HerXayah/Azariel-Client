@@ -271,4 +271,7 @@
 
 	[sounds.master]
 		gui_button_press = 100
+		chat_filter_sound = 100
+		chat_message_send = 100
+		chat_message_receive = 100
 

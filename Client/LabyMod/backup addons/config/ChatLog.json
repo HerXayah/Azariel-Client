@@ -1,0 +1,6 @@
+{
+  "config": {
+    "Search for player names": true,
+    "UploadService": "HASTEBIN"
+  }
+}

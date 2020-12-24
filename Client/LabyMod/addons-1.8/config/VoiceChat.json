@@ -2,9 +2,9 @@
   "config": {
     "keyPushToTalk": 21,
     "microphoneVolume": 10,
-    "selectedMicrophone": "Mikrofon (USB Audio CODEC )",
+    "selectedMicrophone": "Microphone (NVIDIA RTX Voice)",
     "surroundVolume": 10,
-    "enabled": false,
+    "enabled": true,
     "screamerProtection": false,
     "mutedPlayers": [
       "MrRidge",

@@ -1099,7 +1099,9 @@
       ],
       "useExtendedSettings": false,
       "scale": 100,
-      "attributes": {}
+      "attributes": {
+        "customKey": ""
+      }
     },
     "GroupRenderer": {
       "enabled": [],
@@ -1124,7 +1126,9 @@
       "attributes": {}
     },
     "FlyModule": {
-      "enabled": [],
+      "enabled": [
+        "INGAME"
+      ],
       "regions": [
         "TOP_LEFT",
         "TOP_LEFT"
@@ -1141,6 +1145,7 @@
         4.0,
         0.0
       ],
+      "listedAfter": "GameMasterModule",
       "useExtendedSettings": false,
       "scale": 100,
       "attributes": {
@@ -1148,7 +1153,9 @@
       }
     },
     "UndercoverModule": {
-      "enabled": [],
+      "enabled": [
+        "INGAME"
+      ],
       "regions": [
         "TOP_LEFT",
         "TOP_LEFT"
@@ -1165,6 +1172,7 @@
         4.0,
         0.0
       ],
+      "listedAfter": "FlyModule",
       "useExtendedSettings": false,
       "scale": 100,
       "attributes": {
@@ -1172,7 +1180,9 @@
       }
     },
     "GameMasterModule": {
-      "enabled": [],
+      "enabled": [
+        "INGAME"
+      ],
       "regions": [
         "TOP_LEFT",
         "TOP_LEFT"
@@ -1189,6 +1199,7 @@
         4.0,
         0.0
       ],
+      "listedAfter": "Questanzeige",
       "useExtendedSettings": false,
       "scale": 100,
       "attributes": {

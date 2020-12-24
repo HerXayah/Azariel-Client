@@ -13,7 +13,7 @@
 		resource_exploit_fix = true
 
 	[bug_fixes.world]
-		sky_height = true
+		sky_height = false
 
 	[bug_fixes.entities]
 		arrow_lighting = false
@@ -45,6 +45,7 @@
 	[performance.entity_rendering]
 		disable_nametag_boxes = true
 		disable_attached_arrows = true
+		disable_mapped_item_frames = false
 		disable_item_frames = false
 		entity_render_distance = 64
 		disable_grounded_arrows = true
@@ -64,6 +65,7 @@
 
 	[performance.world]
 		batch_model_rendering = true
+		limit_chunk_updates = false
 		disable_mob_spawning = true
 		single_model_render_call = true
 		remove_cloud_transparency = true
@@ -71,18 +73,19 @@
 		low_animation_tick = true
 		optimized_cloud_renderer = true
 		instant_world_swapping = true
+		chunk_update_limit = 50
 		constant_fog_color_checking = true
 
 	[performance.culling]
 		particle_culling = true
 		entity_culling_interval = 0
-		"don't_cull_armor_stand_nametags" = true
+		"don't_cull_armor_stand_nametags" = false
 		blaze_culling = true
-		smart_entity_culling = true
+		smart_entity_culling = false
 		entity_culling = false
 		"don't_cull_nametags" = true
-		"don't_cull_player_nametags" = true
-		"don't_cull_entity_nametags" = true
+		"don't_cull_player_nametags" = false
+		"don't_cull_entity_nametags" = false
 		check_armorstand_rules = false
 
 	[performance.text_rendering]
@@ -128,6 +131,7 @@
 
 	[miscellaneous.general]
 		log_optimizer_amount = 30
+		remove_screen_bobbing = false
 		better_camera = true
 		crosshair_perspective = true
 		better_f1 = false
@@ -167,6 +171,7 @@
 	[miscellaneous.rendering]
 		disable_breaking_particles = true
 		smart_fullbright = true
+		alternate_text_shadow = false
 		show_own_nametag = false
 		clean_view = true
 		fullbright = true
@@ -453,6 +458,13 @@
 	[sounds.master]
 		gui_button_press = 100
 
+[hidden]
+
+	[hidden.hidden]
+		current_scale_override = -1
+		desired_scale_override = -1
+		scale_override = -1
+
 [screens]
 
 	[screens.general]
@@ -461,7 +473,7 @@
 		clean_main_menu = true
 		skin_refresher = true
 		startup_notification = true
-		replace_open_to_lan = false
+		replace_open_to_lan = true
 		replaced_mods_warning = true
 		smart_disconnect = false
 
@@ -481,7 +493,7 @@
 	[screens.chat]
 		super_compact_chat = 5
 		cross_chat = true
-		safe_chat_clicks = false
+		safe_chat_clicks = true
 		shift_chat = false
 		transparent_chat = true
 		transparent_chat_input_field = true
@@ -489,6 +501,7 @@
 		anti_clear_chat = true
 		chat_history_length = 100
 		chat_timestamps = false
+		compact_chat_time = 60
 		chat_keeper = true
 		compact_chat = true
 		chat_timestamps_format = 0
@@ -665,4 +678,5 @@
 		preview_scale = 3
 		screenshot_preview = false
 		preview_animation = 0
+		auto_copy_screenshot = false
 

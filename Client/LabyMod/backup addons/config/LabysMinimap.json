@@ -1,0 +1,11 @@
+{
+  "config": {
+    "deathPoint": true,
+    "tiles": {
+      "waypoints": []
+    },
+    "ignoreFairPlay": true,
+    "keyOpenWaypointGui": 35,
+    "consequencesAccepted": true
+  }
+}

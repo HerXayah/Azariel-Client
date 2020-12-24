@@ -1,0 +1,11 @@
+{
+  "config": {
+    "theme": "PolygonTheme",
+    "backgroundColorTop": -5635926,
+    "backgroundColorBottom": -5635926,
+    "buttonMinecraftStyle": false,
+    "buttonColorOutline": -1,
+    "backgroundPath": "",
+    "enabled": false
+  }
+}

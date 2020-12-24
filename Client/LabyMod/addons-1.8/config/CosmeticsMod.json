@@ -1,7 +1,7 @@
 {
   "config": {
     "savebandana": true,
-    "seperate": false,
+    "seperate": true,
     "fef6c011-2a56-4812-9ced-5317249db846": {
       "CRYSTALWINGS": false,
       "CRYSTALWINGS-D": "ffffff,0",
@@ -12,22 +12,26 @@
       "GIFCAPE": false
     },
     "3ad99947-352f-4719-be96-9bfccc36ae71": {
-      "CAP": true,
+      "CAP": false,
       "CAP-D": "0,7a9c8635-d64f-47ee-a373-5faceffc1915,ffffff,0",
       "HALO": true,
-      "HALO-D": "0",
+      "HALO-D": "3c0000",
       "CAPE": true,
-      "CAPE-D": "AzarielDev",
+      "CAPE-D": "cuteYukii",
       "WINGS": false,
       "WINGS-D": "0,0",
-      "NAMETAG": true,
+      "NAMETAG": false,
       "NAMETAG-D": "\u0026rYukii,3,\u0026rCute girl,1,4",
       "CATTAIL": false,
       "CATTAIL-D": "ffffff",
       "SHOES": false,
       "SHOES-D": "bdf82a9e-8616-4aee-9617-cd51de8f5eff",
       "BACKPACK": false,
-      "BACKPACK-D": "ff0000,7f3300"
+      "BACKPACK-D": "ff0000,7f3300",
+      "COVERMASK": false,
+      "COVERMASK-D": "eed600,ef0000,6233f477-9625-469f-922a-b765b15d11f4",
+      "RABBIT": true,
+      "RABBIT-D": "0,0"
     },
     "savecape": true,
     "CAP": false,
@@ -35,7 +39,7 @@
     "HALO": false,
     "HALO-D": "3c0000",
     "CAPE": false,
-    "CAPE-D": "AzarielDev",
+    "CAPE-D": "cuteYukii",
     "ANGEL": false,
     "ANGEL-D": "2e178cb5-5a09-4ba2-a441-dc07a746b134",
     "STEAMPUNKWINGS": false,
@@ -57,7 +61,7 @@
     "COVERMASK": false,
     "COVERMASK-D": "0,0,6233f477-9625-469f-922a-b765b15d11f4",
     "CATEARS": false,
-    "CATEARS-D": "358174,d9e4ea",
+    "CATEARS-D": "404040,ffffff",
     "ROYALCROWN": false,
     "ROYALCROWN-D": "388,ff0000",
     "EYELIDS": false,
@@ -70,16 +74,60 @@
     "HEADSET-D": "1",
     "BEARD": false,
     "BEARD-D": "3",
-    "SHOES": true,
+    "SHOES": false,
     "SHOES-D": "c525d592-d44f-4488-b0b9-7405f6ccc6b0",
     "CATTAIL": false,
-    "CATTAIL-D": "000000",
+    "CATTAIL-D": "ffffff",
     "capeparticles": false,
     "NAMETAG": false,
     "NAMETAG-D": ",3,,0,0",
     "HALLOWEEN": false,
     "HALLOWEEN-D": "0",
     "RAINBOW-S": 3,
-    "GIFCAPE": false
+    "GIFCAPE": false,
+    "BABYDRAGON": true,
+    "BABYDRAGON-D": "17802074-54e6-43a9-8591-8602ec3366c8,0",
+    "BUNNYSHOES": false,
+    "TOOL": false,
+    "TOOL-D": "0,267",
+    "BACKPACK": false,
+    "BACKPACK-D": "ff0000,7f3300",
+    "WATCH": false,
+    "WATCH-D": "404040,0,0,1,2b57a43e-77ac-4a9f-be02-ce31442c28aa",
+    "ANTLERS": false,
+    "REDNOSE": false,
+    "REDNOSE-D": "0",
+    "RABBIT": false,
+    "RABBIT-D": "0,0",
+    "f31536fb-4dea-4bbd-a742-3afedbdcd0d5": {
+      "HALO": false,
+      "HALLOWEEN": false,
+      "CAPE": false
+    },
+    "bcffdfaf-d86a-4e45-a2c0-6360b0d937c6": {
+      "HALO": false,
+      "HALLOWEEN": false,
+      "CAPE": false
+    },
+    "c15ca463-2ccd-436e-b6f6-4198704f0aa1": {
+      "HALO": false,
+      "HALLOWEEN": false,
+      "CAPE": false,
+      "RABBIT": false
+    },
+    "fd793e62-362f-4762-b057-fce139be1e7a": {
+      "HALO": false,
+      "CAPE": false
+    },
+    "d9e0bb33-ec0c-4594-b46a-ddbaa84fe57c": {
+      "HALO": false,
+      "CAPE": false,
+      "RABBIT": false
+    },
+    "25ddc361-130b-41f5-97a6-ecacf1a623cc": {
+      "HALO": false,
+      "RABBIT": false,
+      "CAPE": false
+    }
   }
 }
