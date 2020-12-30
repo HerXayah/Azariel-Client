@@ -23,6 +23,8 @@ Also Stuff like ToggleSneak etc, are on my Preference so please Set them Up like
 
 - Select AzarielClient on Minecraft Launcher.
 
+If you have Problems with Texturepacks, try removing Ressourcepack24 Addon from Laby
+
 # Screenshots/Ingame
 <p>
   <b> Gameplay Video: </b>
