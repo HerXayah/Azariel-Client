@@ -62,6 +62,7 @@
 		disable_end_portals = true
 		async_texture_updating = true
 		startup_optimization = false
+		optimized_resource_pack_discovery = false
 
 	[performance.world]
 		batch_model_rendering = true
@@ -142,7 +143,7 @@
 		toggle_tab = false
 
 	[miscellaneous.blocks]
-		remove_ground_foliage = true
+		remove_ground_foliage = false
 
 		[miscellaneous.blocks.1]
 			12_farm_selection_boxes = true
@@ -495,15 +496,15 @@
 		cross_chat = true
 		safe_chat_clicks = true
 		shift_chat = false
-		transparent_chat = true
-		transparent_chat_input_field = true
-		chat_position = true
+		transparent_chat = false
+		transparent_chat_input_field = false
+		chat_position = false
 		anti_clear_chat = true
 		chat_history_length = 100
 		chat_timestamps = false
 		compact_chat_time = 60
 		chat_keeper = true
-		compact_chat = true
+		compact_chat = false
 		chat_timestamps_format = 0
 
 	[screens.image_preview]

@@ -1,0 +1,3512 @@
+{
+  "animations": {
+    "itemHeld": {
+      "value": false
+    },
+    "blockHit": {
+      "value": false
+    },
+    "heartAnimation": {
+      "value": false
+    },
+    "damageAnimation": {
+      "value": false
+    },
+    "sneakingAnimation": {
+      "value": true
+    },
+    "eatAnimation": {
+      "value": false
+    },
+    "thrownItems": {
+      "value": false
+    },
+    "bowAnimation": {
+      "value": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.034
+  },
+  "levelHead": {
+    "showSelf": {
+      "value": true
+    },
+    "displayValue": "Level",
+    "displayValues": [
+      "Level"
+    ],
+    "prefixColor": "AQUA",
+    "suffixColor": "YELLOW",
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "autotip": {
+    "config": {
+      "enabled": true,
+      "locale": "en_US",
+      "messageOption": "SHOWN"
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "itemPhysic": {
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "hitboxes": {
+    "animalHitBoxesEnabled": {
+      "value": true
+    },
+    "itemDropHitboxesEnabled": {
+      "value": true
+    },
+    "monsterHitboxesEnabled": {
+      "value": true
+    },
+    "playerHitboxesEnabled": {
+      "value": true
+    },
+    "projectileHitboxesEnabled": {
+      "value": true
+    },
+    "itemFrameHitboxesEnabled": {
+      "value": true
+    },
+    "mainHitboxColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "animalHitboxColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "itemDropHitboxColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "monsterHitboxColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "playerHitboxColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "projectileHitboxColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.083
+  },
+  "showProtection": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "selected": "BOTTOM_LEFT",
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.083
+  },
+  "enchantGlint": {
+    "legacy": false,
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.023
+  },
+  "scoreboard": {
+    "showNumbers": {
+      "value": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "defaultRendering": {
+      "value": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 80
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "topBackground": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 96
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "resetComplete": true,
+    "startMouseX": 0,
+    "startMouseY": 0,
+    "tempOffsetX": 0,
+    "tempOffsetY": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "hovered": false,
+    "centerBox": {
+      "xBox": 30,
+      "yBox": 12,
+      "xOffset": 0.10000000000000162,
+      "yOffset": 0.5
+    },
+    "topLeftBox": {
+      "xBox": 28,
+      "yBox": 9,
+      "xOffset": 0.20000000000000323,
+      "yOffset": 0.14480357142857458
+    },
+    "bottomRightBox": {
+      "xBox": 32,
+      "yBox": 15,
+      "xOffset": 0.0,
+      "yOffset": 0.8551964285714254
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.034
+  },
+  "blockOverlay": {
+    "outlineColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 104
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fillColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": -1,
+        "blue": -1,
+        "alpha": 54
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "thickness": {
+      "value": 2.0
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.083
+  },
+  "notification": {
+    "centerBox": {
+      "xBox": 29,
+      "yBox": 24,
+      "xOffset": 0.7294211364843292,
+      "yOffset": 0.8135593220338972
+    },
+    "topLeftBox": {
+      "xBox": 27,
+      "yBox": 18,
+      "xOffset": 0.4588422729686582,
+      "yOffset": 0.36039999407304485
+    },
+    "bottomRightBox": {
+      "xBox": 32,
+      "yBox": 31,
+      "xOffset": 0.0,
+      "yOffset": 0.2667186499947497
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.017
+  },
+  "motionBlur": {
+    "blurS": {
+      "value": 0.7
+    },
+    "oldBlur": {
+      "value": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "clearWater": {
+    "opacity": {
+      "value": 0.0
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.083
+  },
+  "perspective": {
+    "f5MenuOption": {
+      "value": false
+    },
+    "keyBind": {
+      "value": 56
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.017
+  },
+  "shinypots": {
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "showItemPickupInfo": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": false,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 16,
+      "yBox": 26,
+      "xOffset": 0.0,
+      "yOffset": 0.28346456692913435
+    },
+    "topLeftBox": {
+      "xBox": 12,
+      "yBox": 25,
+      "xOffset": 0.27499999999999836,
+      "yOffset": 0.6633210484106163
+    },
+    "bottomRightBox": {
+      "xBox": 19,
+      "yBox": 26,
+      "xOffset": 0.7250000000000016,
+      "yOffset": 0.9036080854476524
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "particles": {
+    "sharpnessParticles": {
+      "value": false
+    },
+    "particleMulti": {
+      "value": 1.0
+    },
+    "favorite": true,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.009
+  },
+  "chooseMap": {
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "active": true,
+  "isPreset": false,
+  "version": 2,
+  "recentColors": [
+    1526726656,
+    469762048,
+    -2883329,
+    -6401107,
+    -1,
+    -16777216
+  ],
+  "successNotification": {
+    "value": true
+  },
+  "warningNotification": {
+    "value": true
+  },
+  "infoNotification": {
+    "value": true
+  },
+  "errorNotification": {
+    "value": true
+  },
+  "lastDisplayWidth": 1798,
+  "lastDisplayHeight": 1008,
+  "coordinates": {
+    "primaryColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "secondaryColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 28
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "biomeColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "directionColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "chunksColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": true
+    },
+    "roundLocation": {
+      "value": true
+    },
+    "biomeEnabled": {
+      "value": false
+    },
+    "directionEnabled": {
+      "value": true
+    },
+    "chunksEnabled": {
+      "value": false
+    },
+    "hideXYZ": {
+      "value": false
+    },
+    "modOrientation": "HORIZONTAL",
+    "centerBox": {
+      "xBox": 30,
+      "yBox": 0,
+      "xOffset": 0.6083333333333291,
+      "yOffset": 0.4754089568248863
+    },
+    "topLeftBox": {
+      "xBox": 29,
+      "yBox": 0,
+      "xOffset": 0.21666666666665804,
+      "yOffset": 0.20460628727221591
+    },
+    "bottomRightBox": {
+      "xBox": 32,
+      "yBox": 0,
+      "xOffset": 0.0,
+      "yOffset": 0.7462116263775568
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": true,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.009
+  },
+  "toggleSneak": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "toggleSneakRenderMode": "CLASSIC",
+    "toggleSneakMode": "SPRINT_SNEAK",
+    "sprintingText": "Sprinting",
+    "sneakingText": "Sneaking",
+    "warned": false,
+    "inventorySneak": {
+      "value": false
+    },
+    "indicator": {
+      "value": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "flyModifier": {
+      "value": 1.0
+    },
+    "centerBox": {
+      "xBox": 27,
+      "yBox": 0,
+      "xOffset": 0.7166666666666661,
+      "yOffset": 0.26387771520514886
+    },
+    "topLeftBox": {
+      "xBox": 26,
+      "yBox": 0,
+      "xOffset": 0.008333333333343585,
+      "yOffset": 0.014560886200821422
+    },
+    "bottomRightBox": {
+      "xBox": 29,
+      "yBox": 0,
+      "xOffset": 0.42499999999998866,
+      "yOffset": 0.5131945442094763
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "armorStatus": {
+    "armorMode": "BOTH",
+    "armorOrientation": "VERTICAL",
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 68
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "colorSixtyPercent": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "colorFortyPercent": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": 0,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "colorTenPercent": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": 51,
+        "blue": 0,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "colorZeroPercent": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": 0,
+        "blue": 0,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "showMaxDurability": {
+      "value": false
+    },
+    "showPercentage": {
+      "value": false
+    },
+    "inversedNumbers": {
+      "value": false
+    },
+    "handPiece": {
+      "value": true
+    },
+    "childMods": [
+      {
+        "armorIndex": 0,
+        "centerBox": {
+          "xBox": 0,
+          "yBox": 22,
+          "xOffset": 0.4166666666666667,
+          "yOffset": 0.905604719764012
+        },
+        "topLeftBox": {
+          "xBox": 0,
+          "yBox": 22,
+          "xOffset": 0.0,
+          "yOffset": 0.013739640398932626
+        },
+        "bottomRightBox": {
+          "xBox": 0,
+          "yBox": 23,
+          "xOffset": 0.8333333333333334,
+          "yOffset": 0.7974697991290913
+        },
+        "snapping": {
+          "parentToSnap": {},
+          "isSnapped": false
+        },
+        "favorite": false,
+        "enabled": false,
+        "zIndex": 100,
+        "fontOffset": 0.008
+      },
+      {
+        "armorIndex": 1,
+        "centerBox": {
+          "xBox": 0,
+          "yBox": 21,
+          "xOffset": 0.4166666666666667,
+          "yOffset": 0.031465093411996006
+        },
+        "topLeftBox": {
+          "xBox": 0,
+          "yBox": 20,
+          "xOffset": 0.0,
+          "yOffset": 0.13960001404691663
+        },
+        "bottomRightBox": {
+          "xBox": 0,
+          "yBox": 21,
+          "xOffset": 0.8333333333333334,
+          "yOffset": 0.9233301727770754
+        },
+        "snapping": {
+          "parentToSnap": {},
+          "isSnapped": false
+        },
+        "favorite": false,
+        "enabled": false,
+        "zIndex": 100,
+        "fontOffset": 0.008
+      },
+      {
+        "armorIndex": 2,
+        "centerBox": {
+          "xBox": 0,
+          "yBox": 19,
+          "xOffset": 0.4166666666666667,
+          "yOffset": 0.15732546705998002
+        },
+        "topLeftBox": {
+          "xBox": 0,
+          "yBox": 18,
+          "xOffset": 0.0,
+          "yOffset": 0.26546038769490066
+        },
+        "bottomRightBox": {
+          "xBox": 0,
+          "yBox": 20,
+          "xOffset": 0.8333333333333334,
+          "yOffset": 0.04919054642505938
+        },
+        "snapping": {
+          "parentToSnap": {},
+          "isSnapped": false
+        },
+        "favorite": false,
+        "enabled": false,
+        "zIndex": 100,
+        "fontOffset": 0.008
+      },
+      {
+        "armorIndex": 3,
+        "centerBox": {
+          "xBox": 0,
+          "yBox": 17,
+          "xOffset": 0.4166666666666667,
+          "yOffset": 0.28318584070796404
+        },
+        "topLeftBox": {
+          "xBox": 0,
+          "yBox": 16,
+          "xOffset": 0.0,
+          "yOffset": 0.3913207613428847
+        },
+        "bottomRightBox": {
+          "xBox": 0,
+          "yBox": 18,
+          "xOffset": 0.8333333333333334,
+          "yOffset": 0.1750509200730434
+        },
+        "snapping": {
+          "parentToSnap": {},
+          "isSnapped": false
+        },
+        "favorite": false,
+        "enabled": false,
+        "zIndex": 100,
+        "fontOffset": 0.008
+      },
+      {
+        "armorIndex": 4,
+        "centerBox": {
+          "xBox": 0,
+          "yBox": 15,
+          "xOffset": 0.4166666666666667,
+          "yOffset": 0.46611602753195697
+        },
+        "topLeftBox": {
+          "xBox": 0,
+          "yBox": 14,
+          "xOffset": 0.0,
+          "yOffset": 0.5742509481668776
+        },
+        "bottomRightBox": {
+          "xBox": 0,
+          "yBox": 16,
+          "xOffset": 0.8333333333333334,
+          "yOffset": 0.35798110689703455
+        },
+        "snapping": {
+          "parentToSnap": {},
+          "isSnapped": false
+        },
+        "favorite": false,
+        "enabled": false,
+        "zIndex": 100,
+        "fontOffset": 0.008
+      }
+    ],
+    "centerBox": {
+      "xBox": 1,
+      "yBox": 11,
+      "xOffset": 0.0,
+      "yOffset": 0.3274336283185845
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 0,
+      "xOffset": 0.0,
+      "yOffset": 0.6250526759376321
+    },
+    "bottomRightBox": {
+      "xBox": 2,
+      "yBox": 22,
+      "xOffset": 0.0,
+      "yOffset": 0.02981458069953511
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.008
+  },
+  "potionStatus": {
+    "potionStatusType": "VANILLA",
+    "timeTextColor": {
+      "enabled": true,
+      "color": {
+        "red": -86,
+        "green": -86,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "potionTextColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "vanillaPotions": {
+      "value": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "reversedText": {
+      "value": false
+    },
+    "reversedOrder": {
+      "value": false
+    },
+    "blinkingEnabled": {
+      "value": false
+    },
+    "startBlinkingAt": {
+      "value": 0.0
+    },
+    "centerBox": {
+      "xBox": 1,
+      "yBox": 9,
+      "xOffset": 0.7750000000000004,
+      "yOffset": 0.32592592592592545
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 4,
+      "xOffset": 2.529184376454194E-16,
+      "yOffset": 0.9208879687140552
+    },
+    "bottomRightBox": {
+      "xBox": 3,
+      "yBox": 13,
+      "xOffset": 0.5500000000000008,
+      "yOffset": 0.7309638831377957
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.017
+  },
+  "showFPS": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "reversed": {
+      "value": true
+    },
+    "centerBox": {
+      "xBox": 31,
+      "yBox": 5,
+      "xOffset": 0.10000000000000162,
+      "yOffset": 0.20740740740740735
+    },
+    "topLeftBox": {
+      "xBox": 30,
+      "yBox": 4,
+      "xOffset": 0.20000000000000323,
+      "yOffset": 0.7975289879545204
+    },
+    "bottomRightBox": {
+      "xBox": 32,
+      "yBox": 5,
+      "xOffset": 0.0,
+      "yOffset": 0.6172858268602943
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.007
+  },
+  "showDirection": {
+    "textColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "directionType": "COMPASS",
+    "drawBackground": false,
+    "centerBox": {
+      "xBox": 15,
+      "yBox": 0,
+      "xOffset": 0.9666666666666681,
+      "yOffset": 0.6985250737463129
+    },
+    "topLeftBox": {
+      "xBox": 12,
+      "yBox": 0,
+      "xOffset": 0.8833333333333355,
+      "yOffset": 0.038544915016154216
+    },
+    "bottomRightBox": {
+      "xBox": 19,
+      "yBox": 1,
+      "xOffset": 0.05000000000000081,
+      "yOffset": 0.35850523247647165
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "showCPS": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "reversed": {
+      "value": true
+    },
+    "centerBox": {
+      "xBox": 31,
+      "yBox": 6,
+      "xOffset": 0.10000000000000162,
+      "yOffset": 0.35291338582677173
+    },
+    "topLeftBox": {
+      "xBox": 30,
+      "yBox": 5,
+      "xOffset": 0.20000000000000323,
+      "yOffset": 0.9430349663738848
+    },
+    "bottomRightBox": {
+      "xBox": 32,
+      "yBox": 6,
+      "xOffset": 0.0,
+      "yOffset": 0.7627918052796587
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.016
+  },
+  "showPing": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "foregroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": -1,
+        "blue": 33,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "mode": "ICON",
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 20,
+      "yBox": 31,
+      "xOffset": 0.8447778367852726,
+      "yOffset": 0.35820734188994374
+    },
+    "topLeftBox": {
+      "xBox": 20,
+      "yBox": 30,
+      "xOffset": 0.39151177199504444,
+      "yOffset": 0.7518290796184908
+    },
+    "bottomRightBox": {
+      "xBox": 21,
+      "yBox": 31,
+      "xOffset": 0.29804390157550087,
+      "yOffset": 0.9645856041613967
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.008
+  },
+  "keyStroke": {
+    "keystrokeBackgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 91
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "keystrokeColorClicked": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": 102
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fontColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fontColorClicked": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "showMouse": {
+      "value": false
+    },
+    "showSpacebar": {
+      "value": false
+    },
+    "fancyFont": {
+      "value": true
+    },
+    "chroma": {
+      "value": false
+    },
+    "selectedCPSMode": "SMALL",
+    "selectedDirectionIndicator": "WASD",
+    "lastRenderMouseTime": 1574170410680,
+    "fadeTime": {
+      "value": 100.0
+    },
+    "centerBox": {
+      "xBox": 0,
+      "yBox": 1,
+      "xOffset": 0.9333333333333333,
+      "yOffset": 0.14144647377560227
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 0,
+      "xOffset": 0.016666666666667062,
+      "yOffset": 0.06298550901144649
+    },
+    "bottomRightBox": {
+      "xBox": 1,
+      "yBox": 2,
+      "xOffset": 0.8499999999999996,
+      "yOffset": 0.21990743853975783
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": true,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.079
+  },
+  "showArrows": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 19,
+      "yBox": 31,
+      "xOffset": 0.6666666666666734,
+      "yOffset": 0.008849557522125906
+    },
+    "topLeftBox": {
+      "xBox": 19,
+      "yBox": 30,
+      "xOffset": 0.32916666666668315,
+      "yOffset": 0.07239122418882073
+    },
+    "bottomRightBox": {
+      "xBox": 20,
+      "yBox": 31,
+      "xOffset": 0.004166666666663699,
+      "yOffset": 0.9453078908554311
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "fullbright": {
+    "needsUpdate": true,
+    "toggleTime": 10,
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.089
+  },
+  "saturation": {
+    "textColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": -86,
+        "green": -86,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "displayMode": "ICON",
+    "centerBox": {
+      "xBox": 24,
+      "yBox": 29,
+      "xOffset": 0.45896414342629566,
+      "yOffset": 0.4218455743879466
+    },
+    "topLeftBox": {
+      "xBox": 23,
+      "yBox": 29,
+      "xOffset": 0.23373173970783792,
+      "yOffset": 0.1286708928071329
+    },
+    "bottomRightBox": {
+      "xBox": 25,
+      "yBox": 29,
+      "xOffset": 0.6841965471447533,
+      "yOffset": 0.7150202559687603
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.016
+  },
+  "timeChanger": {
+    "timeMultiplier": {
+      "value": 1.0
+    },
+    "timeFrozen": {
+      "value": false
+    },
+    "preset": "ALWAYS_DAY",
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "newMiniMap": {
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 53,
+        "green": 55,
+        "blue": 63,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "borderColor": {
+      "enabled": true,
+      "color": {
+        "red": 53,
+        "green": 55,
+        "blue": 63,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "directionColor": {
+      "enabled": true,
+      "color": {
+        "red": 53,
+        "green": 55,
+        "blue": 63,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "directions": {
+      "value": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "selected": "FLAT",
+    "centerBox": {
+      "xBox": 1,
+      "yBox": 2,
+      "xOffset": 0.375,
+      "yOffset": 0.5958702064896757
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 0,
+      "xOffset": 0.0,
+      "yOffset": 0.14324123823570742
+    },
+    "bottomRightBox": {
+      "xBox": 2,
+      "yBox": 5,
+      "xOffset": 0.75,
+      "yOffset": 0.048499174743643916
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "crosshair": {
+    "widthS": {
+      "value": 2.0
+    },
+    "width": 2,
+    "heightS": {
+      "value": 2.0
+    },
+    "height": 2,
+    "gapS": {
+      "value": 2.0
+    },
+    "gap": 2,
+    "thicknessS": {
+      "value": 1.0
+    },
+    "thickness": 1,
+    "visibleHideGui": {
+      "value": true
+    },
+    "visibleDebugScreen": {
+      "value": true
+    },
+    "visibleSpectatorMode": {
+      "value": true
+    },
+    "visibleThirdPerson": {
+      "value": true
+    },
+    "highlightPlayer": {
+      "value": false
+    },
+    "highlightHostile": {
+      "value": false
+    },
+    "highlightPassive": {
+      "value": false
+    },
+    "dynamicBow": {
+      "value": false
+    },
+    "dynamicAttack": {
+      "value": false
+    },
+    "outline": {
+      "value": true
+    },
+    "dot": {
+      "value": true
+    },
+    "crosshairColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "playerColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "hostileColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "passiveColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "outlineColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "dotColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "selected": "CROSS",
+    "favorite": true,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.017
+  },
+  "fovChanger": {
+    "dynamicSwiftness": {
+      "value": true
+    },
+    "flyingS": {
+      "value": 0.5875
+    },
+    "flying": 77,
+    "slownessS": {
+      "value": 0.375
+    },
+    "slowness": 60,
+    "sprintingS": {
+      "value": 0.5125
+    },
+    "sprinting": 71,
+    "swiftnessS": {
+      "value": 0.5875
+    },
+    "swiftness": 77,
+    "defaultFovS": {
+      "value": 0.5
+    },
+    "defaultFov": 70,
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.017
+  },
+  "showPotions": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 21,
+      "yBox": 31,
+      "xOffset": 0.7666666666666669,
+      "yOffset": 0.008849557522115078
+    },
+    "topLeftBox": {
+      "xBox": 21,
+      "yBox": 30,
+      "xOffset": 0.42916666666666853,
+      "yOffset": 0.07239122418878463
+    },
+    "bottomRightBox": {
+      "xBox": 22,
+      "yBox": 31,
+      "xOffset": 0.10416666666666531,
+      "yOffset": 0.9453078908554455
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "itemCounter": {
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.034
+  },
+  "showFood": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 22,
+      "yBox": 31,
+      "xOffset": 0.4666666666666661,
+      "yOffset": 0.008849557522115078
+    },
+    "topLeftBox": {
+      "xBox": 22,
+      "yBox": 30,
+      "xOffset": 0.12916666666665966,
+      "yOffset": 0.0723912241887702
+    },
+    "bottomRightBox": {
+      "xBox": 22,
+      "yBox": 31,
+      "xOffset": 0.8041666666666726,
+      "yOffset": 0.94530789085546
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "showGapple": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 20,
+      "yBox": 31,
+      "xOffset": 0.36666666666666453,
+      "yOffset": 0.00884955752211147
+    },
+    "topLeftBox": {
+      "xBox": 20,
+      "yBox": 30,
+      "xOffset": 0.029166666666658035,
+      "yOffset": 0.07239122418876659
+    },
+    "bottomRightBox": {
+      "xBox": 20,
+      "yBox": 31,
+      "xOffset": 0.7041666666666709,
+      "yOffset": 0.9453078908554563
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "showEnchantedGapple": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 21,
+      "yBox": 31,
+      "xOffset": 0.06666666666665966,
+      "yOffset": 0.008849557522125906
+    },
+    "topLeftBox": {
+      "xBox": 20,
+      "yBox": 30,
+      "xOffset": 0.7291666666666613,
+      "yOffset": 0.07239122418879546
+    },
+    "bottomRightBox": {
+      "xBox": 21,
+      "yBox": 31,
+      "xOffset": 0.404166666666658,
+      "yOffset": 0.9453078908554563
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "showSoup": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 23,
+      "yBox": 31,
+      "xOffset": 0.1666666666666734,
+      "yOffset": 0.008849557522125906
+    },
+    "topLeftBox": {
+      "xBox": 22,
+      "yBox": 30,
+      "xOffset": 0.8291666666666831,
+      "yOffset": 0.07239122418882073
+    },
+    "bottomRightBox": {
+      "xBox": 23,
+      "yBox": 31,
+      "xOffset": 0.5041666666666637,
+      "yOffset": 0.9453078908554311
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "waypoints": {
+    "waypoints": [],
+    "openKey": {
+      "value": 50
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.017
+  },
+  "chat": {
+    "chatBackgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 127
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "textBackgroundShadow": {
+      "value": true
+    },
+    "timeStamp24h": {
+      "value": true
+    },
+    "timeStampBold": {
+      "value": false
+    },
+    "antiSpam": {
+      "value": false
+    },
+    "timeStampType": "NONE",
+    "timeStampColor": "WHITE",
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.034
+  },
+  "bossBar": {
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.083
+  },
+  "armorStatusPieceZero": {
+    "armorIndex": 0,
+    "centerBox": {
+      "xBox": 0,
+      "yBox": 23,
+      "xOffset": 0.4166666666666667,
+      "yOffset": 0.022930186823992133
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 22,
+      "xOffset": 0.0,
+      "yOffset": 0.06293018682399214
+    },
+    "bottomRightBox": {
+      "xBox": 0,
+      "yBox": 23,
+      "xOffset": 0.8333333333333334,
+      "yOffset": 0.9754178957718781
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.008
+  },
+  "armorStatusPieceOne": {
+    "armorIndex": 1,
+    "centerBox": {
+      "xBox": 0,
+      "yBox": 21,
+      "xOffset": 0.4166666666666667,
+      "yOffset": 0.12586037364798427
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 20,
+      "xOffset": 0.0,
+      "yOffset": 0.1887905604719764
+    },
+    "bottomRightBox": {
+      "xBox": 0,
+      "yBox": 22,
+      "xOffset": 0.8333333333333334,
+      "yOffset": 0.06293018682399214
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.008
+  },
+  "armorStatusPieceTwo": {
+    "armorIndex": 2,
+    "centerBox": {
+      "xBox": 0,
+      "yBox": 19,
+      "xOffset": 0.4166666666666667,
+      "yOffset": 0.2402556538839725
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 18,
+      "xOffset": 0.0,
+      "yOffset": 0.2831858407079646
+    },
+    "bottomRightBox": {
+      "xBox": 0,
+      "yBox": 20,
+      "xOffset": 0.8333333333333334,
+      "yOffset": 0.1887905604719764
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.008
+  },
+  "armorStatusPieceThree": {
+    "armorIndex": 3,
+    "centerBox": {
+      "xBox": 0,
+      "yBox": 17,
+      "xOffset": 0.4166666666666667,
+      "yOffset": 0.34318584070796465
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 16,
+      "xOffset": 0.0,
+      "yOffset": 0.31465093411996065
+    },
+    "bottomRightBox": {
+      "xBox": 0,
+      "yBox": 18,
+      "xOffset": 0.8333333333333334,
+      "yOffset": 0.1887905604719764
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.008
+  },
+  "armorStatusPieceFour": {
+    "armorIndex": 4,
+    "centerBox": {
+      "xBox": 0,
+      "yBox": 15,
+      "xOffset": 0.4166666666666667,
+      "yOffset": 0.46611602753195686
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 14,
+      "xOffset": 0.0,
+      "yOffset": 0.471976401179941
+    },
+    "bottomRightBox": {
+      "xBox": 0,
+      "yBox": 16,
+      "xOffset": 0.8333333333333334,
+      "yOffset": 0.34611602753195675
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.008
+  },
+  "autoText": {
+    "entries": [],
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.017
+  },
+  "reachDisplay": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": false,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": true
+    },
+    "reversed": {
+      "value": true
+    },
+    "show0Blocks": {
+      "value": true
+    },
+    "centerBox": {
+      "xBox": 16,
+      "yBox": 0,
+      "xOffset": 0.0,
+      "yOffset": 0.4854614412136537
+    },
+    "topLeftBox": {
+      "xBox": 14,
+      "yBox": 0,
+      "xOffset": 0.6499999999999984,
+      "yOffset": 0.026787971825898003
+    },
+    "bottomRightBox": {
+      "xBox": 17,
+      "yBox": 0,
+      "xOffset": 0.35000000000000164,
+      "yOffset": 0.9441349106014093
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": true,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.016
+  },
+  "autoGG": {
+    "delayS": {
+      "value": 0.0
+    },
+    "delay": 0,
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "showUsersLeft": {
+    "centerBox": {
+      "xBox": 2,
+      "yBox": 18,
+      "xOffset": 0.27500000000000013,
+      "yOffset": 0.08293018682399186
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 10,
+      "xOffset": 0.0,
+      "yOffset": 0.4886990360303405
+    },
+    "bottomRightBox": {
+      "xBox": 4,
+      "yBox": 25,
+      "xOffset": 0.5500000000000003,
+      "yOffset": 0.6771613376176432
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "showUsersRight": {
+    "centerBox": {
+      "xBox": 29,
+      "yBox": 18,
+      "xOffset": 0.7333333333333291,
+      "yOffset": 0.05146509341199586
+    },
+    "topLeftBox": {
+      "xBox": 27,
+      "yBox": 10,
+      "xOffset": 0.466666666666658,
+      "yOffset": 0.48505163914138566
+    },
+    "bottomRightBox": {
+      "xBox": 32,
+      "yBox": 25,
+      "xOffset": 0.0,
+      "yOffset": 0.6178785476826061
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "cwModToggle": {
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.083
+  },
+  "showTimeIcon": {
+    "centerBox": {
+      "xBox": 15,
+      "yBox": 1,
+      "xOffset": 0.9833333333333331,
+      "yOffset": 0.2914173338952102
+    },
+    "topLeftBox": {
+      "xBox": 13,
+      "yBox": 0,
+      "xOffset": 0.16666666666666938,
+      "yOffset": 0.07126096579241474
+    },
+    "bottomRightBox": {
+      "xBox": 18,
+      "yBox": 2,
+      "xOffset": 0.7999999999999967,
+      "yOffset": 0.5115737019980053
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.013
+  },
+  "tcpNoDelay": {
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "timers": {
+    "fancyFont": {
+      "value": false
+    },
+    "textColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "shortFormat": {
+      "value": false
+    },
+    "reversedOrder": {
+      "value": false
+    },
+    "reversedText": {
+      "value": false
+    },
+    "centerBox": {
+      "xBox": 30,
+      "yBox": 5,
+      "xOffset": 0.8258187289785799,
+      "yOffset": 0.9583677482792524
+    },
+    "topLeftBox": {
+      "xBox": 29,
+      "yBox": 3,
+      "xOffset": 0.6591520623119146,
+      "yOffset": 0.8773492297607364
+    },
+    "bottomRightBox": {
+      "xBox": 31,
+      "yBox": 8,
+      "xOffset": 0.9924853956452452,
+      "yOffset": 0.039386266797768556
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "music": {
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 29,
+        "green": 29,
+        "blue": 29,
+        "alpha": -97
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": true
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "schematica": {
+    "enableAlpha": {
+      "value": false
+    },
+    "alpha": {
+      "value": 1.0
+    },
+    "highlight": {
+      "value": true
+    },
+    "highlightAir": {
+      "value": true
+    },
+    "blockDelta": {
+      "value": 0.005
+    },
+    "renderDistance": {
+      "value": 8.0
+    },
+    "timeout": {
+      "value": 10.0
+    },
+    "placeDistance": {
+      "value": 5.0
+    },
+    "placeInstantly": {
+      "value": false
+    },
+    "destroyBlocks": {
+      "value": false
+    },
+    "destroyInstantly": {
+      "value": false
+    },
+    "placeAdjacent": {
+      "value": true
+    },
+    "placeDelay": {
+      "value": 1.0
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "teamSpeak": {
+    "menuKeybind": {
+      "value": 36
+    },
+    "slideoutOpacity": {
+      "value": 0.5
+    },
+    "centerBox": {
+      "xBox": 4,
+      "yBox": 2,
+      "xOffset": 0.25491237387148197,
+      "yOffset": 0.40677966101694907
+    },
+    "topLeftBox": {
+      "xBox": 2,
+      "yBox": 0,
+      "xOffset": 0.7761550716941059,
+      "yOffset": 0.34808385821793897
+    },
+    "bottomRightBox": {
+      "xBox": 5,
+      "yBox": 4,
+      "xOffset": 0.7336696760488579,
+      "yOffset": 0.4654754638159588
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "mlgCobweb": {
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "backgroundColor": {
+      "enabled": false,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "fancyFont": {
+      "value": true
+    },
+    "centerBox": {
+      "xBox": 1,
+      "yBox": 31,
+      "xOffset": 0.017244202513719335,
+      "yOffset": 0.5494980770705614
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 31,
+      "xOffset": 0.016666666666666937,
+      "yOffset": 0.1802373197936735
+    },
+    "bottomRightBox": {
+      "xBox": 2,
+      "yBox": 31,
+      "xOffset": 0.017821738360771736,
+      "yOffset": 0.9187588343474494
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": true,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.016
+  },
+  "mumbleLink": {
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "replay": {
+    "showWhenRecording": {
+      "value": true
+    },
+    "rememberHiddenPlayers": {
+      "value": true
+    },
+    "autoStartRecording": {
+      "value": false
+    },
+    "showPath": {
+      "value": true
+    },
+    "dontShowVideoRendered": {
+      "value": false
+    },
+    "recordingIconColor": {
+      "enabled": true,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "startStopRecordingKeybind": {
+      "value": 25
+    },
+    "eventMarkerKeybind": {
+      "value": 50
+    },
+    "thumbnailKeybind": {
+      "value": 49
+    },
+    "clearKeyframesKeybind": {
+      "value": 46
+    },
+    "openKeyframePresetsKeybind": {
+      "value": 45
+    },
+    "pauseKeybind": {
+      "value": 25
+    },
+    "playerOverviewKeybind": {
+      "value": 48
+    },
+    "quickModeKeybind": {
+      "value": 16
+    },
+    "settingsKeybind": {
+      "value": 0
+    },
+    "resetCameraTiltKeybind": {
+      "value": 37
+    },
+    "rollClockwiseKeybind": {
+      "value": 38
+    },
+    "rollCounterclockwiseKeybind": {
+      "value": 36
+    },
+    "timelineSyncKeybind": {
+      "value": 47
+    },
+    "lightingToggleKeybind": {
+      "value": 44
+    },
+    "pathToggleKeybind": {
+      "value": 35
+    },
+    "centerBox": {
+      "xBox": 19,
+      "yBox": 31,
+      "xOffset": 0.7666666666666669,
+      "yOffset": 0.3789269851857726
+    },
+    "topLeftBox": {
+      "xBox": 19,
+      "yBox": 30,
+      "xOffset": 0.26666666666666694,
+      "yOffset": 0.87353677354556
+    },
+    "bottomRightBox": {
+      "xBox": 20,
+      "yBox": 31,
+      "xOffset": 0.26666666666666694,
+      "yOffset": 0.8843171968259852
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": true,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "skyblockAddons": {
+    "fancyFont": {
+      "value": false
+    },
+    "hidePlayersNearNPCs": {
+      "value": false
+    },
+    "hidePlayersInLobby": {
+      "value": false
+    },
+    "ignoreItemFrameClicks": {
+      "value": false
+    },
+    "showMagmaBossTimer": {
+      "value": false
+    },
+    "showMagmaBossTimerInOtherGames": {
+      "value": false
+    },
+    "showDarkAuctionTimer": {
+      "value": false
+    },
+    "showDarkAuctionTimerInOtherGames": {
+      "value": false
+    },
+    "showBackpackPreview": {
+      "value": false
+    },
+    "showBackpackPreviewShift": {
+      "value": false
+    },
+    "makeBackpackInventoriesColored": {
+      "value": false
+    },
+    "dontOpenProfilesWithBow": {
+      "value": false
+    },
+    "hideBones": {
+      "value": false
+    },
+    "skeletonHelmetBar": {
+      "value": false
+    },
+    "avoidBreakingStems": {
+      "value": false
+    },
+    "onlyMineOresDeepCavern": {
+      "value": false
+    },
+    "stopBowChargeReset": {
+      "value": false
+    },
+    "disableEmberRod": {
+      "value": false
+    },
+    "avoidPlacingEnchantedItems": {
+      "value": false
+    },
+    "dontResetCursorInventory": {
+      "value": false
+    },
+    "hideFoodAndArmorBars": {
+      "value": false
+    },
+    "hideVanillaHealthBar": {
+      "value": false
+    },
+    "showManaBar": {
+      "value": false
+    },
+    "showManaText": {
+      "value": false
+    },
+    "showHealthBar": {
+      "value": false
+    },
+    "showHealthText": {
+      "value": false
+    },
+    "showDefenceText": {
+      "value": false
+    },
+    "showDefencePercentage": {
+      "value": false
+    },
+    "showHealthUpdates": {
+      "value": false
+    },
+    "showSpeedPercentage": {
+      "value": false
+    },
+    "showCollectionProgress": {
+      "value": false
+    },
+    "changeBarColorForPotions": {
+      "value": false
+    },
+    "alertMagmaBoss": {
+      "value": false
+    },
+    "alertInventoryFull": {
+      "value": false
+    },
+    "alertSummoningEye": {
+      "value": false
+    },
+    "alertSpecialZealot": {
+      "value": false
+    },
+    "alertsColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": 85,
+        "blue": 85,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "alertStoppedMinions": {
+      "value": false
+    },
+    "alertFullMinions": {
+      "value": false
+    },
+    "minionWarningsColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": 85,
+        "blue": 85,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "warningCooldown": {
+      "value": 4.0
+    },
+    "greenEnderChests": {
+      "value": false
+    },
+    "dropConfirmation": {
+      "value": false
+    },
+    "dropConfirmationInOtherGames": {
+      "value": false
+    },
+    "preventDropSellRareItems": {
+      "value": false
+    },
+    "showEnchantmentsReforges": {
+      "value": false
+    },
+    "lockInventorySlots": {
+      "value": false
+    },
+    "lockInventorySlotsKey": {
+      "value": 38
+    },
+    "lockedSlots": [],
+    "replaceRomanNumerals": {
+      "value": false
+    },
+    "showAnvilUses": {
+      "value": false
+    },
+    "fishingSoundIndicator": {
+      "value": false
+    },
+    "avoidBlinkingNightVision": {
+      "value": false
+    },
+    "disableMinionLocationWarning": {
+      "value": false
+    },
+    "preventMovementOnDeath": {
+      "value": false
+    },
+    "showItemCooldowns": {
+      "value": false
+    },
+    "jungleAxeCooldown": {
+      "value": false
+    },
+    "hideGreyEnchants": {
+      "value": false
+    },
+    "organizeEnchantments": {
+      "value": false
+    },
+    "craftingPatterns": {
+      "value": false
+    },
+    "itemPickupLog": {
+      "value": false
+    },
+    "magmaBossTimer": {
+      "centerBox": {
+        "xBox": 26,
+        "yBox": 12,
+        "xOffset": 0.6083333333333291,
+        "yOffset": 0.11406096361848642
+      },
+      "topLeftBox": {
+        "xBox": 25,
+        "yBox": 11,
+        "xOffset": 0.36666666666666453,
+        "yOffset": 0.641570663794854
+      },
+      "bottomRightBox": {
+        "xBox": 27,
+        "yBox": 12,
+        "xOffset": 0.8499999999999935,
+        "yOffset": 0.5865512634421188
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "darkAuctionTimer": {
+      "centerBox": {
+        "xBox": 26,
+        "yBox": 13,
+        "xOffset": 0.6083333333333291,
+        "yOffset": 0.1809439528023599
+      },
+      "topLeftBox": {
+        "xBox": 25,
+        "yBox": 12,
+        "xOffset": 0.36666666666666453,
+        "yOffset": 0.7084536529787274
+      },
+      "bottomRightBox": {
+        "xBox": 27,
+        "yBox": 13,
+        "xOffset": 0.8499999999999935,
+        "yOffset": 0.6534342526259923
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "skeletonHelmetCounter": {
+      "centerBox": {
+        "xBox": 26,
+        "yBox": 14,
+        "xOffset": 0.16666666666666938,
+        "yOffset": 0.1878269419862338
+      },
+      "topLeftBox": {
+        "xBox": 25,
+        "yBox": 13,
+        "xOffset": 0.3666666666666807,
+        "yOffset": 0.7121655663248648
+      },
+      "bottomRightBox": {
+        "xBox": 26,
+        "yBox": 14,
+        "xOffset": 0.966666666666658,
+        "yOffset": 0.6634883176476027
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "healthBar": {
+      "centerBox": {
+        "xBox": 22,
+        "yBox": 31,
+        "xOffset": 0.26666666666666694,
+        "yOffset": 0.46509341199606796
+      },
+      "topLeftBox": {
+        "xBox": 19,
+        "yBox": 31,
+        "xOffset": 0.25000000000000405,
+        "yOffset": 0.1694385047340181
+      },
+      "bottomRightBox": {
+        "xBox": 25,
+        "yBox": 31,
+        "xOffset": 0.28333333333332983,
+        "yOffset": 0.7607483192581178
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "healthTextBar": {
+      "centerBox": {
+        "xBox": 19,
+        "yBox": 30,
+        "xOffset": 0.9416666666666597,
+        "yOffset": 0.20515240904621482
+      },
+      "topLeftBox": {
+        "xBox": 19,
+        "yBox": 29,
+        "xOffset": 0.25,
+        "yOffset": 0.9821861392049486
+      },
+      "bottomRightBox": {
+        "xBox": 20,
+        "yBox": 30,
+        "xOffset": 0.6333333333333193,
+        "yOffset": 0.42811867888748106
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "healthUpdatesBar": {
+      "centerBox": {
+        "xBox": 19,
+        "yBox": 29,
+        "xOffset": 0.9366666666666689,
+        "yOffset": 0.5774434611602741
+      },
+      "topLeftBox": {
+        "xBox": 19,
+        "yBox": 29,
+        "xOffset": 0.23666666666666564,
+        "yOffset": 0.3517908507185078
+      },
+      "bottomRightBox": {
+        "xBox": 20,
+        "yBox": 29,
+        "xOffset": 0.6366666666666722,
+        "yOffset": 0.8030960716020406
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "manaBar": {
+      "centerBox": {
+        "xBox": 22,
+        "yBox": 30,
+        "xOffset": 0.26666666666666694,
+        "yOffset": 0.8357915437561443
+      },
+      "topLeftBox": {
+        "xBox": 19,
+        "yBox": 30,
+        "xOffset": 0.25000000000000405,
+        "yOffset": 0.5401366364940945
+      },
+      "bottomRightBox": {
+        "xBox": 25,
+        "yBox": 31,
+        "xOffset": 0.28333333333332983,
+        "yOffset": 0.1314464510181941
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "manaTextBar": {
+      "centerBox": {
+        "xBox": 22,
+        "yBox": 30,
+        "xOffset": 0.18666666666666887,
+        "yOffset": 0.20515240904621482
+      },
+      "topLeftBox": {
+        "xBox": 21,
+        "yBox": 29,
+        "xOffset": 0.4949999999999971,
+        "yOffset": 0.982186139204945
+      },
+      "bottomRightBox": {
+        "xBox": 22,
+        "yBox": 30,
+        "xOffset": 0.8783333333333406,
+        "yOffset": 0.42811867888748467
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "defenceTextBar": {
+      "centerBox": {
+        "xBox": 24,
+        "yBox": 30,
+        "xOffset": 0.5466666666666642,
+        "yOffset": 0.18941986234021319
+      },
+      "topLeftBox": {
+        "xBox": 23,
+        "yBox": 29,
+        "xOffset": 0.8633333333333238,
+        "yOffset": 0.9691399330994399
+      },
+      "bottomRightBox": {
+        "xBox": 25,
+        "yBox": 30,
+        "xOffset": 0.23000000000000453,
+        "yOffset": 0.4096997915809865
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "defencePercentageBar": {
+      "centerBox": {
+        "xBox": 24,
+        "yBox": 29,
+        "xOffset": 0.5483333333333265,
+        "yOffset": 0.5817109144542796
+      },
+      "topLeftBox": {
+        "xBox": 23,
+        "yBox": 29,
+        "xOffset": 0.8733333333333296,
+        "yOffset": 0.36411732581400286
+      },
+      "bottomRightBox": {
+        "xBox": 25,
+        "yBox": 29,
+        "xOffset": 0.2233333333333232,
+        "yOffset": 0.7993045030945564
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "speedPercentageBar": {
+      "centerBox": {
+        "xBox": 22,
+        "yBox": 29,
+        "xOffset": 0.18666666666666887,
+        "yOffset": 0.585152409046212
+      },
+      "topLeftBox": {
+        "xBox": 21,
+        "yBox": 29,
+        "xOffset": 0.4949999999999971,
+        "yOffset": 0.36218613920494225
+      },
+      "bottomRightBox": {
+        "xBox": 22,
+        "yBox": 29,
+        "xOffset": 0.8783333333333406,
+        "yOffset": 0.8081186788874819
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "skillTextBar": {
+      "centerBox": {
+        "xBox": 22,
+        "yBox": 28,
+        "xOffset": 0.6033333333333342,
+        "yOffset": 0.9931760078662693
+      },
+      "topLeftBox": {
+        "xBox": 21,
+        "yBox": 28,
+        "xOffset": 0.4949999999999971,
+        "yOffset": 0.7685205996171106
+      },
+      "bottomRightBox": {
+        "xBox": 23,
+        "yBox": 29,
+        "xOffset": 0.7116666666666713,
+        "yOffset": 0.21783141611542797
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "itemPickupLogBar": {
+      "centerBox": {
+        "xBox": 26,
+        "yBox": 12,
+        "xOffset": 0.6083333333333291,
+        "yOffset": 0.11406096361848642
+      },
+      "topLeftBox": {
+        "xBox": 25,
+        "yBox": 11,
+        "xOffset": 0.36666666666666453,
+        "yOffset": 0.7232142082496715
+      },
+      "bottomRightBox": {
+        "xBox": 27,
+        "yBox": 12,
+        "xOffset": 0.8499999999999935,
+        "yOffset": 0.5049077189873014
+      },
+      "snapping": {
+        "parentToSnap": {},
+        "isSnapped": false
+      },
+      "favorite": false,
+      "enabled": true,
+      "zIndex": 100,
+      "fontOffset": 0.0
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "nickHider": {
+    "hideNames": {
+      "value": true
+    },
+    "hideOtherNames": {
+      "value": true
+    },
+    "hideSkins": {
+      "value": false
+    },
+    "hideOtherSkins": {
+      "value": true
+    },
+    "usePlayerSkinForAll": {
+      "value": false
+    },
+    "useRealSkinForSelf": {
+      "value": true
+    },
+    "prefix": "Player-",
+    "suffix": "",
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  },
+  "betterframesConfig": {
+    "renderImprovements": "EXPERIMENTAL",
+    "weather": {
+      "value": true
+    },
+    "reducedChunkUpdates": {
+      "value": true
+    },
+    "fogEnabled": {
+      "value": true
+    },
+    "worldSwitchDirtScreen": {
+      "value": true
+    },
+    "chatNameColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "newChat": {
+      "value": true
+    },
+    "clearGlass": {
+      "value": false
+    },
+    "disableAcheievements": {
+      "value": false
+    },
+    "badlionCloakType": "RECTANGLE",
+    "headIconType": "NONE",
+    "watermarkLocation": "ABOVE_INVENTORY",
+    "shieldLocation": "ARM",
+    "globalScale": {
+      "value": 1.0
+    },
+    "blockHarvestParticles": {
+      "value": true
+    },
+    "centeredPotionInventory": {
+      "value": false
+    },
+    "borderlessWindow": {
+      "value": false
+    },
+    "snapFitting": {
+      "value": true
+    },
+    "modLocking": {
+      "value": true
+    },
+    "modAlignment": {
+      "value": true
+    },
+    "pingNumbers": {
+      "value": true
+    },
+    "insiderNameTagsAndIcons": {
+      "value": true
+    },
+    "showCloaks": {
+      "value": true
+    },
+    "showWings": {
+      "value": true
+    },
+    "showShield": {
+      "value": true
+    },
+    "showHats": {
+      "value": true
+    },
+    "fpsBoost": {
+      "value": true
+    },
+    "showF5NameTags": {
+      "value": false
+    },
+    "spraySound": {
+      "value": true
+    },
+    "simpleGuiMode": {
+      "value": false
+    },
+    "lowGfxMode": {
+      "value": false
+    },
+    "guiDebug": {
+      "value": false
+    }
+  },
+  "chatSettingsNew": {
+    "compactMode": {
+      "value": true
+    },
+    "notificationPosition": "NONE",
+    "textBackgroundShadow": {
+      "value": true
+    },
+    "timeStamp24h": {
+      "value": true
+    },
+    "fancyFont": {
+      "value": true
+    },
+    "filterDm": {
+      "value": false
+    },
+    "vanillaBackground": {
+      "value": false
+    },
+    "timeStampType": "NONE",
+    "timeStampColor": "WHITE",
+    "opacityInputField": {
+      "value": 0.32
+    },
+    "opacityBackground": {
+      "value": 0.23
+    },
+    "opacityIngame": {
+      "value": 0.23
+    },
+    "chatWidth": {
+      "value": 0.04
+    },
+    "chatHeightUnfocused": {
+      "value": 0.04
+    },
+    "chatHeightFocused": {
+      "value": 0.02
+    }
+  },
+  "friendSettings": {
+    "openKey": 38,
+    "backgroundOpacity": {
+      "value": 0.6
+    },
+    "settingsBackgroundOpacity": {
+      "value": 0.6
+    },
+    "notificationPosition": "NONE"
+  },
+  "slideoutSettings": {
+    "openKey": {
+      "value": 54
+    },
+    "quickSlideout": {
+      "value": false
+    },
+    "slideoutOpacity": {
+      "value": 0.6
+    }
+  },
+  "emoteSettings": {
+    "emotes": [
+      "default",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "wheelKey": {
+      "value": 48
+    },
+    "emotesKey": {
+      "value": 35
+    },
+    "emote1Key": {
+      "value": 2
+    },
+    "emote2Key": {
+      "value": 3
+    },
+    "emote3Key": {
+      "value": 4
+    },
+    "emote4Key": {
+      "value": 5
+    },
+    "emote5Key": {
+      "value": 6
+    },
+    "emote6Key": {
+      "value": 7
+    },
+    "enabled": {
+      "value": true
+    }
+  },
+  "spraySettings": {
+    "sprays": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "wheelKey": {
+      "value": 21
+    },
+    "spraysKey": {
+      "value": 22
+    },
+    "spray1Key": {
+      "value": 2
+    },
+    "spray2Key": {
+      "value": 3
+    },
+    "spray3Key": {
+      "value": 4
+    },
+    "spray4Key": {
+      "value": 5
+    },
+    "spray5Key": {
+      "value": 6
+    },
+    "spray6Key": {
+      "value": 7
+    },
+    "enabled": {
+      "value": true
+    }
+  },
+  "schematicaSettings": {
+    "loadKey": {
+      "value": 181
+    },
+    "moveKey": {
+      "value": 74
+    },
+    "exportKey": {
+      "value": 55
+    }
+  },
+  "minecraftMonday": {
+    "showText": {
+      "value": true
+    },
+    "fancyFont": {
+      "value": true
+    },
+    "backgroundColor": {
+      "enabled": true,
+      "color": {
+        "red": 40,
+        "green": 43,
+        "blue": 51,
+        "alpha": -77
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "labelColor": {
+      "enabled": true,
+      "color": {
+        "red": -1,
+        "green": -1,
+        "blue": -1,
+        "alpha": -1
+      },
+      "breathingSpeed": 1,
+      "mode": "STATIC",
+      "up": true
+    },
+    "centerBox": {
+      "xBox": 1,
+      "yBox": 0,
+      "xOffset": 0.5416666666666666,
+      "yOffset": 0.8810226155358898
+    },
+    "topLeftBox": {
+      "xBox": 0,
+      "yBox": 0,
+      "xOffset": 0.049999999999999795,
+      "yOffset": 0.5262585061884472
+    },
+    "bottomRightBox": {
+      "xBox": 3,
+      "yBox": 1,
+      "xOffset": 0.03333333333333337,
+      "yOffset": 0.2357867248833324
+    },
+    "snapping": {
+      "parentToSnap": {},
+      "isSnapped": false
+    },
+    "favorite": false,
+    "enabled": false,
+    "zIndex": 100,
+    "fontOffset": 0.0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "data" : {
+    "UiEvents" : "{\"hasSeenDialog\":{\"LAUNCHER_RELEASENOTE_61rnrT5t7g0hS7YlV6O9CD\":true},\"hidePlayerSafetyDisclaimer\":{\"1.8.9_7854c18ea494461f0fa65888ed68ba37\":true,\"AzarielClient_forge\":true}}",
+    "UiSettings" : "{\"dungeonsDLCFilter\":{\"Owned\":true,\"Bundle\":true,\"DLC\":true},\"javaConfigurationFilter\":{\"release\":true,\"historical\":false,\"snapshot\":false,\"sortBy\":\"last-played\",\"modded\":true},\"lastVisitedGame\":\"java\"}"
+  },
+  "formatVersion" : 1
+}

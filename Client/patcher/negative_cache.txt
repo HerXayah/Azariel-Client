@@ -67,7 +67,6 @@ armatures/item/dye_pink.json
 armatures/block/double_paeonia_bottom.json
 armatures/block/spruce_outer_stairs.json
 armatures/block/flower_pot_tulip_white.json
-textures/gui/buttonMedium.png
 mcpatcher/font/ascii.png
 armatures/item/lapis_block.json
 armatures/item/magenta_stained_glass.json
@@ -78,7 +77,6 @@ armatures/block/fire_nsewu1_alt_flip.json
 armatures/block/brewing_stand_empty.json
 armatures/block/brown_mushroom_block_n.json
 armatures/block/fire_nseu1.json
-mcpatcher/color.properties
 armatures/block/stone_button_pressed.json
 armatures/block/double_grass_top.json
 armatures/block/carpet_light_blue.json
@@ -142,7 +140,6 @@ armatures/item/gray_stained_hardened_clay.json
 armatures/item/pumpkin.json
 armatures/item/fern.json
 armatures/block/birch_fence_nsew.json
-textures/gui/big.png
 armatures/block/lime_pane_ns.json
 mcpatcher/sky/world1/sky1.properties
 armatures/block/upper_slab_oak.json
@@ -214,7 +211,6 @@ armatures/block/fire_nsu1.json
 armatures/block/flower_pot_dandelion.json
 armatures/block/redstone_ne.json
 armatures/item/orange_stained_hardened_clay.json
-big.png
 armatures/block/fence_nsew.json
 armatures/item/dragon_egg.json
 armatures/block/mycelium.json
@@ -508,7 +504,6 @@ armatures/block/pumpkin_stem_growth3.json
 armatures/item/mob_spawner.json
 armatures/block/light_blue_pane_n.json
 armatures/item/leather_helmet.json
-textures/font/ascii.properties
 armatures/item/iron_helmet.json
 armatures/block/fence_ne.json
 armatures/block/blue_pane_n.json
@@ -829,6 +824,7 @@ armatures/block/brewing_stand_bottles_1.json
 armatures/block/upper_slab_brick.json
 armatures/block/brown_mushroom_block_nw.json
 armatures/block/gray_wool.json
+mcpatcher/sky/world0/sky4.properties
 armatures/block/rail_flat.json
 armatures/block/lime_pane_nse.json
 armatures/block/ladder.json
@@ -1036,7 +1032,6 @@ armatures/block/tripwire_suspended_n.json
 armatures/block/inner_stairs.json
 armatures/block/fire_nseu2_flip_main.json
 armatures/block/heavy_pressure_plate_down.json
-UsersYukiiAppDataRoaming.minecraftconfigCustomMainMenulogoclient.png
 armatures/block/repeater_locked_4tick.json
 armatures/item/jungle_log.json
 armatures/item/golden_hoe.json
@@ -1050,7 +1045,6 @@ armatures/block/spruce_fence_inventory.json
 armatures/item/quartz_block.json
 armatures/block/upper_slab_red_sandstone.json
 armatures/block/podzol.json
-textures/font/ascii_sga.properties
 armatures/block/snow_height12.json
 armatures/block/golden_rail_raised_ne.json
 armatures/block/birch_outer_stairs.json
@@ -1122,7 +1116,6 @@ armatures/block/activator_rail_active_raised_ne.json
 armatures/item/spruce_planks.json
 armatures/block/orchid.json
 armatures/item/birch_fence.json
-UsersYukiiAppDataRoaming.minecraftconfigCustomMainMenuig.png
 armatures/item/record_strad.json
 armatures/block/brown_mushroom_block_s.json
 armatures/block/nether_brick_fence_nsew.json
@@ -1369,7 +1362,6 @@ armatures/item/diamond_block.json
 armatures/block/anvil.json
 armatures/block/end_stone.json
 armatures/block/pumpkin.json
-mcpatcher/sky/world0/sky1.properties
 armatures/block/red_pane_n.json
 armatures/block/door_bottom.json
 armatures/block/fire_nseu2_alt_flip.json

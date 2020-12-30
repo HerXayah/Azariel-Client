@@ -51,6 +51,17 @@
       "serverBound": false,
       "serverAddress": "",
       "available": true
+    },
+    {
+      "message": "/snow 125",
+      "keyShift": false,
+      "keyCtrl": false,
+      "keyAlt": false,
+      "keyCode": 44,
+      "sendNotInstantly": false,
+      "serverBound": false,
+      "serverAddress": "",
+      "available": true
     }
   ]
 }

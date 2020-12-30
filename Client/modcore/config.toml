@@ -10,12 +10,12 @@
 [keybinds]
 
 	[keybinds.keybinds]
-		"rotate_(toggle)" = false
-		add_friend = false
-		"rotate_(hold)" = false
+		"rotate_(toggle)" = true
+		add_friend = true
+		"rotate_(hold)" = true
 		open_friends_gui = true
-		"flip_(hold)" = false
-		"flip_(toggle)" = false
+		"flip_(hold)" = true
+		"flip_(toggle)" = true
 
 [privacy]
 
@@ -41,8 +41,7 @@
 [cosmetics]
 
 	[cosmetics.general]
-		show_cosmetic_preview = true
-		capes_cache_strategy = 0
+		capes_cache_strategy = 1
 
 	[cosmetics.show_cosmetics]
 		top_hat = true
