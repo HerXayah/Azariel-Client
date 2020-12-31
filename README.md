@@ -17,7 +17,7 @@ Also Stuff like ToggleSneak etc, are on my Preference so please Set them Up like
 
 - Press on ,,Download Source (Zip)
 
-- Open it and extract it into Minecraft Folder.
+- Open it and extract the Content of the Folder ,,Client,, into Minecraft Folder.
 
 - Override any existing Files.
 
