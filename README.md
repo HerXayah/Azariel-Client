@@ -11,10 +11,10 @@ First head to this site [here](https://adoptopenjdk.net/nightly.html?variant=ope
   <img src=https://i.imgur.com/PxnbEbO.png></img>
 <p>
   Download either .zip or .msi and Install it.
-  <br> Now head to ``C:\Program Files\AdoptOpenJDK\*JDK YOU HAVE*\bin`` and copy the Path.
-  <br> Go into the MC Launcher -> More Options -> Java Executable and then press on ``Browse``.
-  <br> Now go to the Path of the JRE and in the >bin Folder, then select javaw.exe and press >Open.
-  <br> Press >save in Launcher and start the Game.
+  <br> Now head to C:\Program Files\AdoptOpenJDK\*JDK YOU HAVE*\bin and copy the Path.
+  <br> Go into the MC Launcher -> More Options -> Java Executable and then press on Browse.
+  <br> Now go to the Path of the JRE and in the bin Folder, then select javaw.exe and press Open.
+  <br> Press save in Launcher and start the Game.
 
 # How to install
 
