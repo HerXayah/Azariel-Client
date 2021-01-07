@@ -1,13 +1,20 @@
-# Azariel-Client
+# Devil Client
 
 Disclaimer: Im not affiliated with Mojang or any of these Mods. I didnt make them (yet) and thus they belong to the rightful maker. Im also not accountable for any Ban or Damage that happens while using this ,,Client,,.
 
 Also this is NOT a Cheat.
 
-# Info
+# Get even more FPS
 
-For Stuff like Borderless Window or anything else, please take your time and look throught a Mod called Patcher, which you can acess with /patcher ^-^
-Also Stuff like ToggleSneak etc, are on my Preference so please Set them Up like you want if you need :3
+First head to this site [here](https://adoptopenjdk.net/nightly.html?variant=openjdk8&jvmVariant=openj9) and scroll down until you see this
+<p>
+  <img src=https://i.imgur.com/PxnbEbO.png></img>
+<p>
+  Download either .zip or .msi and Install it.
+  <br> Now head to C:\Program Files\AdoptOpenJDK\*JDK YOU HAVE*\bin and copy the Path.
+  <br> Go into the MC Launcher -> More Options -> Java Executable and then press on Browse.
+  <br> Now go to the Path of the JRE and in the bin Folder, then select javaw.exe and press Open.
+  <br> Press save in Launcher and start the Game.
 
 # How to install
 
@@ -17,7 +24,7 @@ Also Stuff like ToggleSneak etc, are on my Preference so please Set them Up like
 
 - Press on ,,Download Source (Zip)
 
-- Open it and extract it into Minecraft Folder.
+- Open it and extract the Content of the Folder ,,Client,, into Minecraft Folder.
 
 - Override any existing Files.
 
